@@ -1,13 +1,29 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.zip
-*.tgz
+# Logs
 *.log
 *.log.*
-*.sig
+logs/
 
+# Arch Linux makepkg's leftovers
 pkg/
 src/
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Linux/Unix temporary files
+*.tmp
+
+# VS Code settings
+**/.vscode/settings.json
+**/.vs/slnx.sqlite
