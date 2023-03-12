@@ -1,11 +1,13 @@
 {
-  "name": "react-express-starter",
+  "name": "StarterX4",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "tiddlywiki": "^5.2.5"
   },
   "scripts": {
     "start": "react-scripts start",

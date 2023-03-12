@@ -1,0 +1,83 @@
+created: 20230307161145416
+list: repositories
+modified: 20230311162658710
+tags: 
+title: Repositories
+type: text/vnd.tiddlywiki
+
+\define blue($text$)
+@@color:#00CCCC;
+$text$
+@@
+\end
+
+\define green($text$)
+@@color:green;
+$text$
+@@
+\end
+
+\define blukeybase($text$)
+@@color:#00CCCC;font-family:lucida console,lucida-console-w01,monospace;font-size:14px;text-decoration:underline;
+$text$
+@@
+\end
+
+\define kbstyle($text$)
+@@font-family:lucida console,lucida-console-w01,monospace;font-size:14px;
+$text$
+@@
+\end
+
+''<<blue "Arch" "blue">>/<<green "Manjaro">> repositories''
+
+```
+[stx4-any]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/any/stx4
+```
+```
+[stx4-x86_64]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/x86_64/stx4
+```
+```
+[stx4-aarch64]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/aarch64/stx4
+```
+```
+[stx4-riscv64]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/riscv64/stx4
+```
+
+''Equinox Desktop Environment (EDE)''
+
+```
+[ede-any]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/any/ede
+```
+```
+[ede-i686]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/i686/ede
+```
+```
+[ede-x64]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/x86_64/ede
+```
+```
+[ede-archbsd_amd64]
+SigLevel = Never
+Server = https://starterx4.github.io/repos/arch/bsd-amd64/ede
+```
+
+<br/><br/>
+
+<<kbstyle "If you still want to peek inside `/github/pages/starterx4`:">>
+
+* <<blukeybase "https://github.com/StarterX4/StarterX4.github.io">>
+
