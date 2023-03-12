@@ -8,6 +8,7 @@
 
 # production
 /build
+/satwiki/output
 
 # misc
 .DS_Store
