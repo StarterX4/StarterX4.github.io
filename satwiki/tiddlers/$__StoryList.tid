@@ -1,2 +1,3 @@
-list: General Repositories GettingStarted
+list: General Repositories
 title: $:/StoryList
+type: text/vnd.tiddlywiki

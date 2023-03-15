@@ -2,12 +2,14 @@
     "description": "Basic client-server edition. without filesystem and tiddlyweb.",
     "plugins": [
         "tiddlywiki/xmldom",
+        "tiddlywiki/googleanalytics",
         "tiddlywiki/innerwiki",
-        "tiddlywiki/highlight"
+        "tiddlywiki/highlight",
+        "_tiddlywiki/tiddlyweb",
+        "_tiddlywiki/filesystem"
     ],
     "themes": [
         "tiddlywiki/vanilla",
-		"tiddlywiki/readonly",
         "tiddlywiki/snowwhite"
     ],
 	"languages": [
