@@ -1,8 +1,8 @@
 {
-    "description": "Basic client-server edition",
+    "description": "Basic client-server edition. without filesystem and tiddlyweb.",
     "plugins": [
         "tiddlywiki/xmldom",
-        "tiddlywiki/filesystem",
+        "tiddlywiki/innerwiki",
         "tiddlywiki/highlight"
     ],
     "themes": [
