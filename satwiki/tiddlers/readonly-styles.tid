@@ -16,7 +16,10 @@ button.$title$, .tc-drop-down button.$title$, div.$title$
 <<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fmanager>>`,`
 <<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-image>>`,`
 <<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-journal>>`,`
-<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-tiddler>> `{
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fnew-tiddler>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2control-panel>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fcore\%2Fui\%2FButtons\%2Fsave-wiki>>`,`
+<<button-selector tc-btn-\%24\%3A\%2Fplugins\%2Ftiddlywiki\%2Fmarkdown\%2Fnew-markdown-button>> `{
 	display: none;
 }`
 </$reveal>
