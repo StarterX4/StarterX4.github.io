@@ -1,0 +1,7 @@
+{
+	"title": "$:/plugins/statcounter",
+	"name": "StatCounter",
+	"description": "Website visitor statistics from StatCounter",
+	"contributor": "Sylvain Comte, StarterX4",
+	"list": "readme settings usage"
+}

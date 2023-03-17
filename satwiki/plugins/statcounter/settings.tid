@@ -1,0 +1,7 @@
+title: $:/plugins/statcounter/settings
+
+You have only two mandatory values to set:
+
+# ''[[StatCounter Project ID|$:/StatCounterProject]]'': (mandatory) a digit code from the sc_project var<br/><$edit-text tiddler="$:/StatCounterProject" default="" tag="input"/>
+
+# ''[[StatCounter Security Code|$:/StatCounterSecurity]]'': (mandatory) a code from the sc_security var.<br/><$edit-text tiddler="$:/StatCounterSecurity" default="" tag="input"/>

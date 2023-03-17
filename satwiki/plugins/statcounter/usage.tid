@@ -1,0 +1,24 @@
+title: $:/plugins/statcounter/usage
+
+!! Create a StatCounter account
+
+If you don't already have an account:
+
+# Go to the StatCounter website: https://www.statcounter.com
+# Click the ''Try it for free'' button and follow instructions to set up your account and the project pointing to your wiki
+# Note the ID codes for this project. One called "project", and the second called "security".
+# You can also access them in the existing project settings.
+
+!! Install the plugin on your local copy of the TiddlyWiki
+
+# ''Backup your TiddlyWiki''. Just in case
+# Install the plugin via the plugin manager in control panel
+# Save the TiddlyWiki andrefresh the page to load the plugin
+# Go to [[$:/ControlPanel]] > Plugins tab and unfold the StatCounter Plugin
+# Go to the //settings// tab and edit the parameters
+# Save the TiddlyWiki
+
+!! Upload the new version of your TiddlyWiki
+
+# Upload the saved TiddlyWiki to TiddlySpot, GitHub, GitLab or other web host
+# Return to your StatCounter project page to check that your site is being tracked

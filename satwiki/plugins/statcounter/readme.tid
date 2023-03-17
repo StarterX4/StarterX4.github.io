@@ -1,0 +1,5 @@
+title: $:/plugins/statcounter/readme
+
+This plugin enables you to use StatCounter to track access to your online TiddlyWiki document. Based upon the [[googleanalytics plugin|https://github.com/Jermolene/TiddlyWiki5/blob/master/plugins/tiddlywiki/googleanalytics]].
+
+By default, the user is not asked for permission before initialising StatCounter. This plugin also optionally integrates with the "Consent Banner" plugin (also found in the official plugin library) so that StatCounter is not initialised until the user grants explicit permission.
