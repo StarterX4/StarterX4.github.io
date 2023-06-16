@@ -1,0 +1,2952 @@
+{
+  "METADATA_VERSION": 20002,
+  "allow_disabled_algorithms": false,
+  "aptoide-7.apk": {
+    "hash": "0937875e51b490139669183329f04f40d1697c48267f89a086222101aa465098",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_SMS",
+        null
+      ],
+      [
+        "android.permission.SEND_SMS",
+        null
+      ],
+      [
+        "cm.aptoide.pt.PAYMENT_BROADCAST_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.AUTHENTICATE_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        null
+      ],
+      [
+        "android.permission.MANAGE_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.WRITE_SYNC_SETTINGS",
+        null
+      ],
+      [
+        "cm.aptoide.ptdev.PAYMENT_BROADCAST_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "cm.aptoide.pt.476.png",
+      "480": "cm.aptoide.pt.476.png",
+      "320": "cm.aptoide.pt.476.png",
+      "240": "cm.aptoide.pt.476.png",
+      "160": "cm.aptoide.pt.476.png",
+      "0": "cm.aptoide.pt.476.png"
+    },
+    "antiFeatures": [],
+    "packageName": "cm.aptoide.pt",
+    "versionCode": 476,
+    "name": "Aptoide",
+    "versionName": "7.0.9",
+    "minSdkVersion": 9,
+    "targetSdkVersion": 23,
+    "sig": "5c92413ebb9240fa5832e7047e1a61a8",
+    "signer": "73534d45c1345a4783c7eff2cf6038551ab5fdf09673f32c68c3b0864baa80e4",
+    "size": 10656938,
+    "apkName": "aptoide-7.apk",
+    "icon": "cm.aptoide.pt.476.png",
+    "added": 1456816842.0
+  },
+  "com.buak.Link2SD-link2sd.apk": {
+    "hash": "0df50e55d180df0b9d498e01ef76792d1dc1436ca06d6057eaa3e4069ddfa4f5",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.GET_PACKAGE_SIZE",
+        null
+      ],
+      [
+        "android.permission.CLEAR_APP_CACHE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.DELETE_CACHE_FILES",
+        null
+      ],
+      [
+        "android.permission.PACKAGE_USAGE_STATS",
+        null
+      ],
+      [
+        "com.android.vending.CHECK_LICENSE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/drawable-hdpi-v4/link2sd.png",
+      "120": "res/drawable-ldpi-v4/link2sd.png",
+      "160": "res/drawable-mdpi-v4/link2sd.png",
+      "320": "res/drawable-xhdpi-v4/link2sd.png",
+      "480": "res/drawable-xxhdpi-v4/link2sd.png",
+      "640": "res/drawable-xxxhdpi-v4/link2sd.png",
+      "-1": "res/drawable-mdpi-v4/link2sd.png"
+    },
+    "icons": {
+      "640": "com.buak.Link2SD.415.png",
+      "480": "com.buak.Link2SD.415.png",
+      "320": "com.buak.Link2SD.415.png",
+      "240": "com.buak.Link2SD.415.png",
+      "160": "com.buak.Link2SD.415.png",
+      "120": "com.buak.Link2SD.415.png",
+      "0": "com.buak.Link2SD.415.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.buak.Link2SD",
+    "versionCode": 415,
+    "name": "Link2SD",
+    "versionName": "4.3.4",
+    "minSdkVersion": 9,
+    "targetSdkVersion": 25,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi",
+      "armeabi-v7a",
+      "mips",
+      "x86",
+      "x86_64"
+    ],
+    "sig": "db51a6583647eaaa9170cd3c7ecc4635",
+    "signer": "8cb832d5972889e8dc4fc18296ee411f23e558339a2e7ef9c051fa837508f946",
+    "size": 3964092,
+    "apkName": "com.buak.Link2SD-link2sd.apk",
+    "icon": "com.buak.Link2SD.415.png",
+    "added": 1686876988.054404
+  },
+  "com.easyway.freewifi-link2sd.apk": {
+    "hash": "c7a627f367ba5180eb23d3a4ad38b98c58380ce904dfc935232214e2dd6b2823",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.android.vending.Billing",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "160": "res/drawable/app_icon.png",
+      "240": "res/mipmap-hdpi-v4/app_icon.png",
+      "-1": "res/drawable/app_icon.png"
+    },
+    "icons": {
+      "240": "com.easyway.freewifi.20.png",
+      "160": "com.easyway.freewifi.20.png",
+      "640": "com.easyway.freewifi.20.png",
+      "0": "com.easyway.freewifi.20.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.easyway.freewifi",
+    "versionCode": 20,
+    "name": "Free WiFi",
+    "versionName": "3.3.3",
+    "minSdkVersion": 16,
+    "targetSdkVersion": 28,
+    "sig": "ccba7ed37cee6a6f3b513b5c28202444",
+    "signer": "dc1af674db6bcfc0ed50e03da476197cf78c0965f445cad4cc321978f73f27e7",
+    "size": 4938796,
+    "apkName": "com.easyway.freewifi-link2sd.apk",
+    "icon": "com.easyway.freewifi.20.png",
+    "added": 1686877086.925892
+  },
+  "com.estrongs.android.pop.pro-link2sd.apk": {
+    "hash": "96a4470da483aeacfd1e1bb2b5c681ed13267c19dba97d4a3c884c3c1bfb7fbd",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.KILL_BACKGROUND_PROCESSES",
+        null
+      ],
+      [
+        "android.permission.WRITE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.SET_WALLPAPER",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_MEDIA_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_SUPERUSER",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        ".PERMISSION",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.GET_TASKS",
+        null
+      ],
+      [
+        "com.android.vending.CHECK_LICENSE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/drawable-hdpi-v4/fex.png",
+      "160": "res/drawable-mdpi-v4/fex.png",
+      "320": "res/drawable-xhdpi-v4/fex.png",
+      "-1": "res/drawable-mdpi-v4/fex.png"
+    },
+    "icons": {
+      "320": "com.estrongs.android.pop.pro.1016.png",
+      "240": "com.estrongs.android.pop.pro.1016.png",
+      "160": "com.estrongs.android.pop.pro.1016.png",
+      "0": "com.estrongs.android.pop.pro.1016.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.estrongs.android.pop.pro",
+    "versionCode": 1016,
+    "name": "ES File Explorer Pro",
+    "versionName": "Pro 1.1.4.1",
+    "minSdkVersion": 14,
+    "targetSdkVersion": 20,
+    "nativecode": [
+      "armeabi",
+      "x86"
+    ],
+    "sig": "656a229dfbd8185642b467d499eaa053",
+    "signer": "08e7cf9d166f82553fc89a447adaff3bf17ab53ea79b9743c250fcdfc57fa75b",
+    "size": 6905988,
+    "apkName": "com.estrongs.android.pop.pro-link2sd.apk",
+    "icon": "com.estrongs.android.pop.pro.1016.png",
+    "added": 1686877391.584242
+  },
+  "com.grindrapp.android-link2sd.apk": {
+    "hash": "b7fc83fbd6c322e21a159fb250daa3dcb8c3623130f39c1e94a2f75dbebca18a",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_VIDEO",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_AUDIO",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        32
+      ],
+      [
+        "com.grindrapp.android",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.KILL_BACKGROUND_PROCESSES",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.location.network"
+    ],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.grindrapp.android.115809.png",
+      "480": "com.grindrapp.android.115809.png",
+      "320": "com.grindrapp.android.115809.png",
+      "240": "com.grindrapp.android.115809.png",
+      "160": "com.grindrapp.android.115809.png",
+      "0": "com.grindrapp.android.115809.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.grindrapp.android",
+    "versionCode": 115809,
+    "name": "Grindr",
+    "versionName": "9.10.1",
+    "minSdkVersion": 23,
+    "targetSdkVersion": 33,
+    "sig": "158a8fe159276a9b22d3e998140d17d1",
+    "signer": "6e21a5f966a7252628cd8f5982d93086a0fcf76c09edb9d7731964bb1c842897",
+    "size": 36536306,
+    "apkName": "com.grindrapp.android-link2sd.apk",
+    "icon": "com.grindrapp.android.115809.png",
+    "added": 1686875723.0
+  },
+  "com.huawei.appmarket-link2sd.apk": {
+    "hash": "1dd959623ce2fc5617609639b4dc89dc4b187b792e5dbb65055131e78622706b",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "com.huawei.permission.sec.MDM.v2",
+        null
+      ],
+      [
+        "com.huawei.android.permission.GET_CHR_DATA",
+        null
+      ],
+      [
+        "com.hihonor.android.permission.GET_CHR_DATA",
+        null
+      ],
+      [
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.huawei.permission.MANAGE_SECURITYPROFILE",
+        null
+      ],
+      [
+        "com.hihonor.permission.MANAGE_SECURITYPROFILE",
+        null
+      ],
+      [
+        "com.huawei.dataprivacycenter.permission.LAUNCH_DATA_PRIVACY_CENTER",
+        null
+      ],
+      [
+        "android.permission.STOP_APP_SWITCHES",
+        null
+      ],
+      [
+        "android.permission.PACKAGE_USAGE_STATS",
+        null
+      ],
+      [
+        "android.permission.WRITE_APN_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "com.huawei.systemmanager.permission.APPLY_TRIM_POLICY",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.GET_PACKAGE_SIZE",
+        null
+      ],
+      [
+        "android.permission.EXPAND_STATUS_BAR",
+        null
+      ],
+      [
+        "com.android.permission.RECV_HUAWEI",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_OVERLAY_WINDOW",
+        null
+      ],
+      [
+        "com.huawei.android.powerkit.permission.BIND",
+        null
+      ],
+      [
+        "com.hihonor.android.powerkit.permission.BIND",
+        null
+      ],
+      [
+        "com.huawei.hwdetectrepair.ACTIVITY_ACCESS",
+        null
+      ],
+      [
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "com.hihonor.android.launcher.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS",
+        null
+      ],
+      [
+        "com.huawei.android.powerkit.permission.STATECHG",
+        null
+      ],
+      [
+        "com.hihonor.android.powerkit.permission.STATECHG",
+        null
+      ],
+      [
+        "ohos.permission.GET_BUNDLE_INFO",
+        null
+      ],
+      [
+        "ohos.permission.GET_BUNDLE_INFO_PRIVILEGED",
+        null
+      ],
+      [
+        "ohos.permission.INSTALL_BUNDLE",
+        null
+      ],
+      [
+        "ohos.permission.LISTEN_BUNDLE_CHANGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.WRITE_SECURE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.READ_RUNTIME_PROFILES",
+        null
+      ],
+      [
+        "com.huawei.hsl.PACKAGE_MANAGER_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_SECURE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "com.android.permission.system_manager_interface",
+        null
+      ],
+      [
+        "com.huawei.systemmanager.permission.ACCESS_INTERFACE",
+        null
+      ],
+      [
+        "com.hihonor.systemmanager.permission.ACCESS_INTERFACE",
+        null
+      ],
+      [
+        "android.permission.REAL_GET_TASKS",
+        null
+      ],
+      [
+        "android.permission.REORDER_TASKS",
+        null
+      ],
+      [
+        "com.huawei.parentcontrol.permission.provider",
+        null
+      ],
+      [
+        "huawei.android.permission.HW_SIGNATURE_OR_SYSTEM",
+        null
+      ],
+      [
+        "hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM",
+        null
+      ],
+      [
+        "com.hihonor.parentcontrol.permission.provider",
+        null
+      ],
+      [
+        "android.permission.INTERACT_ACROSS_USERS",
+        null
+      ],
+      [
+        "android.permission.MANAGE_USERS",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.ACCESS_INTERFACE_NORMAL",
+        null
+      ],
+      [
+        "com.hihonor.android.launcher.permission.ACCESS_INTERFACE_NORMAL",
+        null
+      ],
+      [
+        "com.huawei.permission.MANAGE_TRUSTSPACE",
+        null
+      ],
+      [
+        "com.hihonor.permission.MANAGE_TRUSTSPACE",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.CHANGE_BADGE",
+        null
+      ],
+      [
+        "android.permission.QUERY_ALL_PACKAGES",
+        null
+      ],
+      [
+        "com.huawei.permission.MANAGE_FOLD_SCREEN",
+        null
+      ],
+      [
+        "com.hihonor.permission.MANAGE_FOLD_SCREEN",
+        null
+      ],
+      [
+        "android.permission.WRITE_MEDIA_STORAGE",
+        29
+      ],
+      [
+        "com.android.packageinstaller.permission.HW_MANAGE_DOCUMENTS",
+        null
+      ],
+      [
+        "com.huawei.appmarket.RECV_THIRD_COMMON_MSG",
+        null
+      ],
+      [
+        "com.huawei.permission.coauth.USE_AUTH",
+        null
+      ],
+      [
+        "com.hihonor.permission.coauth.USE_AUTH",
+        null
+      ],
+      [
+        "com.android.permission.GET_INSTALLED_APPS",
+        null
+      ],
+      [
+        "com.android.launcher.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "ohos.permission.REQUIRE_FORM",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "com.huawei.appmarket.permission.downloadmanager",
+        null
+      ],
+      [
+        "android.permission.READ_PRIVILEGED_PHONE_STATE",
+        null
+      ],
+      [
+        "com.huawei.permission.ACCESS_HW_KEYSTORE",
+        null
+      ],
+      [
+        "com.hihonor.permission.ACCESS_HW_KEYSTORE",
+        null
+      ],
+      [
+        "com.huawei.gameassistant.permission.WIRTE_GAME_LIST",
+        null
+      ],
+      [
+        "android.permission.INTERACT_ACROSS_USERS_FULL",
+        null
+      ],
+      [
+        "com.huawei.screenrecorder.permission.SCREENRECORDER_SERVICE_PERMISSION",
+        null
+      ],
+      [
+        "com.hihonor.screenrecorder.permission.SCREENRECORDER_SERVICE_PERMISSION",
+        null
+      ],
+      [
+        "com.huawei.gameassistant.permission.gameservice.ingameassistant.provider",
+        null
+      ],
+      [
+        "com.android.systemui.permission.SCREEN_SHOT",
+        null
+      ],
+      [
+        "com.huawei.permission.SET_WINDOW_MODE",
+        null
+      ],
+      [
+        "com.hihonor.permission.SET_WINDOW_MODE",
+        null
+      ],
+      [
+        "com.huawei.permission.ACCESS_SYSTEM_WHITE_LIST",
+        null
+      ],
+      [
+        "com.huawei.permission.SKIP_TRIGGER_FREEFORM",
+        null
+      ],
+      [
+        "com.hihonor.permission.SKIP_TRIGGER_FREEFORM",
+        null
+      ],
+      [
+        "com.huawei.gameassistant.permission.iconnect",
+        null
+      ],
+      [
+        "com.huawei.permission.ACCESS_DISPLAY_ENGINE",
+        null
+      ],
+      [
+        "com.huawei.permission.CONFIG_BRIGHTNESS",
+        null
+      ],
+      [
+        "com.hihonor.permission.CONFIG_BRIGHTNESS",
+        null
+      ],
+      [
+        "android.permission.SET_HARMFUL_APP_WARNINGS",
+        null
+      ],
+      [
+        "com.huawei.permission.WRITE_HW_PERMISSION",
+        null
+      ],
+      [
+        "com.huawei.security.restriction.permission.ACCESS_RESTRICTION",
+        null
+      ],
+      [
+        "com.huawei.appmarket.permission.MANAGE_APP_UPDATE",
+        null
+      ],
+      [
+        "com.huawei.android.permissioncontroller.permission.MANAGE_PERMISSIONS_FROM_CONTROLLER",
+        null
+      ],
+      [
+        "android.permission.MANAGE_DEVICE_ADMINS",
+        null
+      ],
+      [
+        "com.huawei.appmarket.oobe.permission.SEND_SETUP_WIZARD_EVENTS",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "com.huawei.android.permissioncontroller.permission.QUERY_PERMISSIONS_FROM_CONTROLLER",
+        null
+      ],
+      [
+        "com.android.packageinstaller.permission.HUAWEI_CHECK_APP_RISK_ACCESS",
+        null
+      ],
+      [
+        "com.huawei.permission.external_app_settings.USE_COMPONENT",
+        null
+      ],
+      [
+        "com.huawei.appmarket.permission.dynamic_install",
+        null
+      ],
+      [
+        "android.permission.INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.DELETE_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "com.android.packageinstaller.permission.REQUEST_DELETE_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.REQUEST_DELETE_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.ALLOCATE_AGGRESSIVE",
+        null
+      ],
+      [
+        "com.huawei.permission.INSTALL_APP_DISABLE_VERIFY",
+        null
+      ],
+      [
+        "com.hihonor.permission.INSTALL_APP_DISABLE_VERIFY",
+        null
+      ],
+      [
+        "com.huawei.permission.READ_INSTALLER_FILE",
+        null
+      ],
+      [
+        "com.hihonor.permission.READ_INSTALLER_FILE",
+        null
+      ],
+      [
+        "com.huawei.kidpad.parentcontrol.permission.CONFIRM_PASSWORD",
+        null
+      ],
+      [
+        "com.huawei.android.internal.app.BACKUP_READ_PROVIDER",
+        null
+      ],
+      [
+        "com.huawei.android.internal.app.BACKUP_WRITE_PROVIDER",
+        null
+      ],
+      [
+        "com.huawei.permission.SECURITY_DIAGNOSE",
+        null
+      ],
+      [
+        "com.hihonor.permission.SECURITY_DIAGNOSE",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.samsung.android.launcher.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "com.huawei.permission.sec.ACCESS_UDID",
+        null
+      ],
+      [
+        "com.hihonor.permission.sec.ACCESS_UDID",
+        null
+      ],
+      [
+        "com.huawei.appmarket.permission.PROCESS_PUSH_MSG",
+        null
+      ],
+      [
+        "com.huawei.appmarket.permission.PUSH_PROVIDER",
+        null
+      ],
+      [
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.huawei.appmarket",
+    "versionCode": 130002300,
+    "name": "AppGallery",
+    "versionName": "13.0.2.300",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 30,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi",
+      "armeabi-v7a"
+    ],
+    "sig": "3ab21246d68f0ec8d4e8917bb5127106",
+    "signer": "3baf59a2e5331c30675fab35ff5fff0d116142d3d4664f1c3cb804068b40614f",
+    "size": 51699521,
+    "apkName": "com.huawei.appmarket-link2sd.apk",
+    "added": 1686875370.0
+  },
+  "com.huawei.hwid-link2sd.apk": {
+    "hash": "0ab94b1bcb165436aab58ad825348e674685536fb310495d7fcf23d48ef5b1be",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.AUTHENTICATE_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.MANAGE_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "com.huawei.permission.ACTION_VIRTUAL_SYSTEM",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_PRIVILEGED_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.MODIFY_PHONE_STATE",
+        null
+      ],
+      [
+        "com.huawei.appmarket.provider.readPermission",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_SMS",
+        null
+      ],
+      [
+        "android.permission.STATUS_BAR",
+        null
+      ],
+      [
+        "com.huawei.hicloud.permission.LAUNCHER_ACTIVITY",
+        null
+      ],
+      [
+        "com.huawei.authentication.HW_ACCESS_AUTH_SERVICE",
+        null
+      ],
+      [
+        "com.huawei.hicloud.permission.STARTUPGUIDE",
+        null
+      ],
+      [
+        "com.huawei.android.permission.photoshareconfig",
+        null
+      ],
+      [
+        "com.huawei.hicloud.permission.hicloudLogin",
+        null
+      ],
+      [
+        "com.huawei.deviceattestation.HW_DEVICE_ATTESTATION_ACCESS",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "huawei.android.permission.HW_SIGNATURE_OR_SYSTEM",
+        null
+      ],
+      [
+        "com.huawei.permission.sec.MDM.v2",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "com.huawei.permission.GET_LOCK_PASSWORD_CHANGED",
+        null
+      ],
+      [
+        "com.huawei.permission.sec.ACCESS_UDID",
+        null
+      ],
+      [
+        "com.huawei.hwid.permission.FAMILY_SHARE",
+        null
+      ],
+      [
+        "com.huawei.android.permission.ANTITHEFT",
+        null
+      ],
+      [
+        "android.permission.READ_CONTACTS",
+        null
+      ],
+      [
+        "com.huawei.dataprivacycenter.permission.LAUNCH_DATA_PRIVACY_CENTER",
+        null
+      ],
+      [
+        "com.huawei.parentcontrol.permission.provider",
+        null
+      ],
+      [
+        "com.huawei.fingerprint.permission.USER_INTERACTIVE",
+        null
+      ],
+      [
+        "com.huawei.wallet.permission.COMMON_SYS_OR_SIG",
+        null
+      ],
+      [
+        "com.huawei.remotocontrol.permission.REMOTECALL",
+        null
+      ],
+      [
+        "android.permission.WRITE_SETTINGS",
+        null
+      ],
+      [
+        "com.huawei.permission.external_app_settings.USE_COMPONENT",
+        null
+      ],
+      [
+        "android.permission.MANAGE_USERS",
+        null
+      ],
+      [
+        "com.huawei.android.permission.ACCESS_BIND_MSDP_MOVEMENT_SERVICE",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "com.hihonor.permission.sec.MDM.v2",
+        null
+      ],
+      [
+        "android.permission.GET_TASKS",
+        null
+      ],
+      [
+        "android.permission.REAL_GET_TASKS",
+        null
+      ],
+      [
+        "com.hihonor.permission.sec.ACCESS_UDID",
+        null
+      ],
+      [
+        "android.permission.PACKAGE_USAGE_STATS",
+        null
+      ],
+      [
+        "com.huawei.permission.app.DOWNLOAD",
+        null
+      ],
+      [
+        "com.huawei.permission.pps.ACCESS_UA",
+        null
+      ],
+      [
+        "com.huawei.permission.hms.ads.START_SERVICE",
+        null
+      ],
+      [
+        "androidx.ads.identifier.provider.HIGH_PRIORITY",
+        null
+      ],
+      [
+        "com.huawei.permission.ACTIVITY_NOTIFIER_PERMISSION",
+        null
+      ],
+      [
+        "com.hihonor.permission.ACTIVITY_NOTIFIER_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_OVERLAY_WINDOW",
+        null
+      ],
+      [
+        "android.permission.INTERNAL_SYSTEM_WINDOW",
+        null
+      ],
+      [
+        "android.permission.STATUS_BAR_SERVICE",
+        null
+      ],
+      [
+        "android.permission.EXPAND_STATUS_BAR",
+        null
+      ],
+      [
+        "android.permission.WRITE_SECURE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.READ_SEARCH_INDEXABLES",
+        null
+      ],
+      [
+        "com.hihonor.permission.external_app_settings.USE_COMPONENT",
+        null
+      ],
+      [
+        "com.huawei.deskclock.broadcast.permission",
+        null
+      ],
+      [
+        "com.hihonor.deskclock.broadcast.permission",
+        null
+      ],
+      [
+        "android.permission.READ_CALENDAR",
+        null
+      ],
+      [
+        "android.permission.WRITE_CALENDAR",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        30
+      ],
+      [
+        "android.permission.BROADCAST_STICKY",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.REAL_GET_TASKS",
+        null
+      ],
+      [
+        "com.huawei.homevision.videocall.RECV_CALL_STATUS",
+        null
+      ],
+      [
+        "com.huawei.homevision.videocall.callstatusprovider.READ",
+        null
+      ],
+      [
+        "com.huawei.homevision.tvservice.ACCESS_SERVICE",
+        null
+      ],
+      [
+        "com.hihonor.homevision.tvservice.ACCESS_SERVICE",
+        null
+      ],
+      [
+        "android.permission.QUERY_ALL_PACKAGES",
+        null
+      ],
+      [
+        "com.huawei.vassistanthd.permission.VOICE_SETTINGS",
+        null
+      ],
+      [
+        "com.android.permission.GET_INSTALLED_APPS",
+        null
+      ],
+      [
+        "ohos.permission.INSTALL_BUNDLE",
+        null
+      ],
+      [
+        "ohos.permission.GET_BUNDLE_INFO",
+        null
+      ],
+      [
+        "ohos.permission.GET_BUNDLE_INFO_PRIVILEGED",
+        null
+      ],
+      [
+        "com.hihonor.permission.MANAGE_FOLD_SCREEN",
+        null
+      ],
+      [
+        "com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED",
+        null
+      ],
+      [
+        "com.huawei.hiai.awareness.ACCESS_BIND_COMMON_FENCE_AWARENESSSERVICE",
+        null
+      ],
+      [
+        "android.permission.FORCE_STOP_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.KILL_BACKGROUND_PROCESSES",
+        null
+      ],
+      [
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACTIVITY_RECOGNITION",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        30
+      ],
+      [
+        "android.permission.BLUETOOTH_PRIVILEGED",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CREATE_USERS",
+        null
+      ],
+      [
+        "android.permission.FLASHLIGHT",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.INTERACT_ACROSS_USERS",
+        null
+      ],
+      [
+        "android.permission.LOCAL_MAC_ADDRESS",
+        null
+      ],
+      [
+        "android.permission.MANAGE_FACERECOGNITION",
+        null
+      ],
+      [
+        "android.permission.MANAGE_FINGERPRINT",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.READ_WIFI_CREDENTIAL",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.REORDER_TASKS",
+        null
+      ],
+      [
+        "android.permission.SET_ACTIVITY_WATCHER",
+        null
+      ],
+      [
+        "android.permission.UPDATE_APP_OPS_STATS",
+        null
+      ],
+      [
+        "android.permission.UPDATE_DEVICE_STATS",
+        null
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FACERECOGNITION",
+        null
+      ],
+      [
+        "com.huawei.android.hms.innerservice.permission",
+        null
+      ],
+      [
+        "com.huawei.android.permission.ACCESS_BIND_ARSERVICE",
+        null
+      ],
+      [
+        "com.huawei.android.permission.ACCESS_HWBOOSTER_SERVICE",
+        null
+      ],
+      [
+        "com.huawei.android.permission.INNER_RECEIVER",
+        null
+      ],
+      [
+        "com.huawei.android.permission.VR",
+        null
+      ],
+      [
+        "com.huawei.android.powerkit.permission.BIND",
+        null
+      ],
+      [
+        "com.huawei.android.powerkit.permission.STATECHG",
+        null
+      ],
+      [
+        "com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA",
+        null
+      ],
+      [
+        "com.huawei.dataprivacycenter.permission.LAUNCH_APP_PRIVACY_STATEMENT",
+        null
+      ],
+      [
+        "android.permission.STOP_APP_SWITCHES",
+        null
+      ],
+      [
+        "com.huawei.hms.kit.awareness.PERMISSION",
+        null
+      ],
+      [
+        "com.huawei.hms.location.permission.PENDINGINTENT",
+        null
+      ],
+      [
+        "com.huawei.hms.permission.signature",
+        null
+      ],
+      [
+        "com.huawei.hms.permission.signatureOrSystem",
+        null
+      ],
+      [
+        "com.huawei.hwid.permission.ACCESS",
+        null
+      ],
+      [
+        "com.huawei.hwid.permission.CONTENT_PROVIDER",
+        null
+      ],
+      [
+        "com.huawei.iaware.DATABASE_READ_PERMISSION",
+        null
+      ],
+      [
+        "com.huawei.iaware.DATABASE_WRITE_PERMISSION",
+        null
+      ],
+      [
+        "com.huawei.lbs.permission.ACCESS_BIND_LBSSERVICE",
+        null
+      ],
+      [
+        "com.huawei.lbs.permission.BIND_HMS_SERVICE",
+        null
+      ],
+      [
+        "com.huawei.lbs.permission.LBS_SERVICE_GEOFENCE_ACTION",
+        null
+      ],
+      [
+        "android.permission.MANAGE_APPOPS",
+        null
+      ],
+      [
+        "com.huawei.permission.ACCESS_HW_KEYSTORE",
+        null
+      ],
+      [
+        "com.huawei.permission.BEHAVIOR_COLLECT",
+        null
+      ],
+      [
+        "com.huawei.hms.permission.INNER_BROADCAST",
+        null
+      ],
+      [
+        "com.huawei.permission.KIT_UPDATE_OVER",
+        null
+      ],
+      [
+        "com.huawei.permission.push.ACCESS_BIND_SERVICE",
+        null
+      ],
+      [
+        "com.huawei.permission.SECURITY_DIAGNOSE",
+        null
+      ],
+      [
+        "com.huawei.hms.permission.USER_SWITCH",
+        null
+      ],
+      [
+        "com.huawei.push.permission.HMS_OPERATION",
+        null
+      ],
+      [
+        "com.huawei.systemmanager.permission.ACCESS_INTERFACE",
+        null
+      ],
+      [
+        "com.huawei.vrservice.permission.VR",
+        null
+      ],
+      [
+        "com.huawei.gameassistant.permission.gameservice.ingameassistant.provider",
+        null
+      ],
+      [
+        "android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME",
+        null
+      ],
+      [
+        "android.permission.DISPATCH_PROVISIONING_MESSAGE",
+        null
+      ],
+      [
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.MANAGE_DEVICE_ADMINS",
+        null
+      ],
+      [
+        "android.permission.MASTER_CLEAR",
+        null
+      ],
+      [
+        "com.huawei.permission.GRANT_SIGNATURE_PERMISSION",
+        null
+      ],
+      [
+        "com.huawei.permission.sec.MDM_DEVICE_OWNER",
+        null
+      ],
+      [
+        "android.permission.BROADCAST_PACKAGE_REMOVED",
+        null
+      ],
+      [
+        "com.huawei.android.sns.sdk.permission",
+        null
+      ],
+      [
+        "com.huawei.android.sns.alarm.permission",
+        null
+      ],
+      [
+        "com.huawei.android.permission.gallerysupportphotoshare",
+        null
+      ],
+      [
+        "com.huawei.locationsharing.permission.START",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_AUDIO",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_VIDEO",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "com.hihonor.permission.ACCESS_HW_KEYSTORE",
+        null
+      ],
+      [
+        "com.hihonor.permission.push.ACCESS_BIND_SERVICE",
+        null
+      ],
+      [
+        "com.hihonor.android.permission.ACCESS_BIND_ARSERVICE",
+        null
+      ],
+      [
+        "com.hihonor.iaware.DATABASE_READ_PERMISSION",
+        null
+      ],
+      [
+        "com.hihonor.iaware.DATABASE_WRITE_PERMISSION",
+        null
+      ],
+      [
+        "com.hihonor.android.powerkit.permission.STATECHG",
+        null
+      ],
+      [
+        "com.hihonor.android.powerkit.permission.BIND",
+        null
+      ],
+      [
+        "com.hihonor.lbs.permission.ACCESS_BIND_LBSSERVICE",
+        null
+      ],
+      [
+        "com.hihonor.permission.BEHAVIOR_COLLECT",
+        null
+      ],
+      [
+        "com.hihonor.permission.SECURITY_DIAGNOSE",
+        null
+      ],
+      [
+        "com.hihonor.systemmanager.permission.ACCESS_INTERFACE",
+        null
+      ],
+      [
+        "com.hihonor.android.permission.VR",
+        null
+      ],
+      [
+        "com.hihonor.authentication.HW_ACCESS_AUTH_SERVICE",
+        null
+      ],
+      [
+        "hihonor.android.permission.HW_SIGNATURE_OR_SYSTEM",
+        null
+      ],
+      [
+        "hihonor.permission.CLICK_STATUSBAR_BROADCAST",
+        null
+      ],
+      [
+        "com.hihonor.permission.innerbroadcast",
+        null
+      ],
+      [
+        "com.huawei.permission.MANAGE_FOLD_SCREEN",
+        null
+      ],
+      [
+        "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS",
+        null
+      ],
+      [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_CONNECT",
+        null
+      ],
+      [
+        "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_SCAN",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADVERTISE",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "com.huawei.hiai.awareness.RECEIVE_BEHAVIOR",
+        null
+      ],
+      [
+        "android.permission.SET_WALLPAPER",
+        null
+      ],
+      [
+        "com.huawei.wallet.cardnumprovider.permission.ACCESS_CARD_NUM_READ",
+        null
+      ],
+      [
+        "com.huawei.android.hsf.permission.COPY_PACKAGE",
+        null
+      ],
+      [
+        "com.huawei.push.permission.RESET_PUSH",
+        null
+      ],
+      [
+        "android.permission.CHANGE_COMPONENT_ENABLED_STATE",
+        null
+      ],
+      [
+        "com.android.systemui.permission.removeTask",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "480": "res/drawable-xxhdpi/hms_core_icon.png"
+    },
+    "icons": {
+      "480": "com.huawei.hwid.61004302.png",
+      "0": "com.huawei.hwid.61004302.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.huawei.hwid",
+    "versionCode": 61004302,
+    "name": "HMS Core",
+    "versionName": "6.10.4.302",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 31,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "sig": "528e0a2b895739ac57fcdf053b74092c",
+    "signer": "b92825c2bd5d6d6d1e7f39eecd17843b7d9016f611136b75441bc6f4d3f00f05",
+    "size": 43579471,
+    "apkName": "com.huawei.hwid-link2sd.apk",
+    "icon": "com.huawei.hwid.61004302.png",
+    "added": 1686875336.0
+  },
+  "com.inkwired.droidinfo-link2sd.apk": {
+    "hash": "db35705d785ca7c85a3cec5c1717f54505f2b3bbc1ec4de604c5400cd4e7975d",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/drawable-hdpi-v4/icon.png",
+      "160": "res/drawable-mdpi-v4/icon.png",
+      "320": "res/drawable-xhdpi-v4/icon.png",
+      "480": "res/drawable-xxhdpi-v4/icon.png",
+      "-1": "res/drawable-mdpi-v4/icon.png"
+    },
+    "icons": {
+      "480": "com.inkwired.droidinfo.18.png",
+      "320": "com.inkwired.droidinfo.18.png",
+      "240": "com.inkwired.droidinfo.18.png",
+      "160": "com.inkwired.droidinfo.18.png",
+      "0": "com.inkwired.droidinfo.18.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.inkwired.droidinfo",
+    "versionCode": 18,
+    "name": "Droid Info",
+    "versionName": "1.2.2",
+    "minSdkVersion": 14,
+    "targetSdkVersion": 27,
+    "sig": "6f8a4971986244d7454a5a6a47726476",
+    "signer": "45ab2ab194b3f21cbe034af8446c0b0e5acf80ff4e86e1ea9d58fd8ee910628e",
+    "size": 2896891,
+    "apkName": "com.inkwired.droidinfo-link2sd.apk",
+    "icon": "com.inkwired.droidinfo.18.png",
+    "added": 1686875505.0
+  },
+  "com.jonathanpuckey.radiogarden-link2sd.apk": {
+    "hash": "d2561506fa65495251e4f7d6619af941c786b17ea8fc591e8c2069047ee767dd",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/icon.png",
+      "120": "res/mipmap-ldpi-v4/icon.png",
+      "160": "res/mipmap-mdpi-v4/icon.png",
+      "320": "res/mipmap-xhdpi-v4/icon.png",
+      "480": "res/mipmap-xxhdpi-v4/icon.png",
+      "640": "res/mipmap-xxxhdpi-v4/icon.png",
+      "-1": "res/mipmap-mdpi-v4/icon.png"
+    },
+    "icons": {
+      "640": "com.jonathanpuckey.radiogarden.3048639.png",
+      "480": "com.jonathanpuckey.radiogarden.3048639.png",
+      "320": "com.jonathanpuckey.radiogarden.3048639.png",
+      "240": "com.jonathanpuckey.radiogarden.3048639.png",
+      "160": "com.jonathanpuckey.radiogarden.3048639.png",
+      "120": "com.jonathanpuckey.radiogarden.3048639.png",
+      "0": "com.jonathanpuckey.radiogarden.3048639.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.jonathanpuckey.radiogarden",
+    "versionCode": 3048639,
+    "name": "Radio Garden",
+    "versionName": "2.1.3",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 28,
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "sig": "26484b3a3cb614356c5cdf7a76049cd5",
+    "signer": "55fe1ad16d6661fac1ef42bf44e75c0201649556c0de0b7066a4031ba9c17786",
+    "size": 16973811,
+    "apkName": "com.jonathanpuckey.radiogarden-link2sd.apk",
+    "icon": "com.jonathanpuckey.radiogarden.3048639.png",
+    "added": 1686876503.0
+  },
+  "com.opera.max.global-link2sd.apk": {
+    "hash": "68d42c0e247e2fb4f47205c7dede7a8b1ee998d1de3101b2852f0db4aea662db",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        22
+      ],
+      [
+        "com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        28
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        22
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        30
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        30
+      ],
+      [
+        "android.permission.WRITE_SETTINGS",
+        22
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.opera.max.permission.GET_PREINSTALL_DATA",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.PACKAGE_USAGE_STATS",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER",
+        null
+      ],
+      [
+        "android.permission.EXPAND_STATUS_BAR",
+        null
+      ],
+      [
+        "android.permission.QUERY_ALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.opera.max.global",
+    "versionCode": 460100000,
+    "name": "Samsung Max",
+    "versionName": "4.6.10",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 31,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a"
+    ],
+    "sig": "fa67b2b159d7dc7023b2a37b24de34c4",
+    "signer": "f29cc92c6146fe669db8d0ddb7f07409e6d43f97abb17212911081cd995b55e2",
+    "size": 21404511,
+    "apkName": "com.opera.max.global-link2sd.apk",
+    "added": 1686876529.0
+  },
+  "com.softwarebakery.drivedroid-link2sd.apk": {
+    "hash": "ea562e7264428a39400f486ae1b1d2f4b22098793da4c6620c5b1c2ea6d0218f",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_SUPERUSER",
+        null
+      ],
+      [
+        "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "120": "res/drawable-ldpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.softwarebakery.drivedroid.105000.png",
+      "480": "com.softwarebakery.drivedroid.105000.png",
+      "320": "com.softwarebakery.drivedroid.105000.png",
+      "240": "com.softwarebakery.drivedroid.105000.png",
+      "160": "com.softwarebakery.drivedroid.105000.png",
+      "120": "com.softwarebakery.drivedroid.105000.png",
+      "0": "com.softwarebakery.drivedroid.105000.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.softwarebakery.drivedroid",
+    "versionCode": 105000,
+    "name": "DriveDroid",
+    "versionName": "0.10.50",
+    "minSdkVersion": 15,
+    "targetSdkVersion": 28,
+    "sig": "a1a0d3a77ccbf5b0a4ca0ec0e096bd97",
+    "signer": "b250158acfa6557ff602d34e2204355e2f56971b252dfa817faf5b4aed413a96",
+    "size": 4967984,
+    "apkName": "com.softwarebakery.drivedroid-link2sd.apk",
+    "icon": "com.softwarebakery.drivedroid.105000.png",
+    "added": 1686875431.0
+  },
+  "com.sonymobile.sketch-link2sd.apk": {
+    "hash": "bf0b148278a14aefccf51bf5f2f5f52aaac833c394e3717bb4862e7964c19f52",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.SET_WALLPAPER",
+        null
+      ],
+      [
+        "android.permission.BROADCAST_STICKY",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.sony.snei.np.android.account.provider.permission.DUID_READ_PROVIDER",
+        null
+      ],
+      [
+        "com.sony.snei.np.android.account.permission.ACCOUNT_BROADCAST",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.sonymobile.sketch.18874374.png",
+      "480": "com.sonymobile.sketch.18874374.png",
+      "320": "com.sonymobile.sketch.18874374.png",
+      "240": "com.sonymobile.sketch.18874374.png",
+      "160": "com.sonymobile.sketch.18874374.png",
+      "0": "com.sonymobile.sketch.18874374.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.sonymobile.sketch",
+    "versionCode": 18874374,
+    "name": "Sketch",
+    "versionName": "9.0.A.0.6",
+    "minSdkVersion": 17,
+    "targetSdkVersion": 28,
+    "sig": "bb99102731ef6621d30565c24dfe8f79",
+    "signer": "bc01a8cd9e5d87854f6dc4c84aed49edc34ac196c00b89623cea6ccbbdea627b",
+    "size": 34371955,
+    "apkName": "com.sonymobile.sketch-link2sd.apk",
+    "icon": "com.sonymobile.sketch.18874374.png",
+    "added": 1686876589.0
+  },
+  "com.whatsapp-link2sd.apk": {
+    "hash": "f218444b482e17c14a083d604c3077ba301a26c495b8c62479b1cdf1f70b8f33",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_NUMBERS",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_SMS",
+        null
+      ],
+      [
+        "android.permission.USE_BIOMETRIC",
+        null
+      ],
+      [
+        "android.permission.USE_FINGERPRINT",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.MANAGE_OWN_CALLS",
+        null
+      ],
+      [
+        "android.permission.AUTHENTICATE_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.NEARBY_WIFI_DEVICES",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BROADCAST_STICKY",
+        null
+      ],
+      [
+        "android.permission.CHANGE_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.GET_TASKS",
+        null
+      ],
+      [
+        "android.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.MANAGE_ACCOUNTS",
+        null
+      ],
+      [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.READ_CONTACTS",
+        null
+      ],
+      [
+        "android.permission.READ_PROFILE",
+        null
+      ],
+      [
+        "android.permission.READ_SYNC_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.READ_SYNC_STATS",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        null
+      ],
+      [
+        "android.permission.SEND_SMS",
+        null
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.WRITE_CONTACTS",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_SYNC_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.USE_FULL_SCREEN_INTENT",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        null
+      ],
+      [
+        "com.sec.android.provider.badge.permission.READ",
+        null
+      ],
+      [
+        "com.sec.android.provider.badge.permission.WRITE",
+        null
+      ],
+      [
+        "com.htc.launcher.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        null
+      ],
+      [
+        "com.sonyericsson.home.permission.BROADCAST_BADGE",
+        null
+      ],
+      [
+        "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.READ_SETTINGS",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+        null
+      ],
+      [
+        "com.huawei.android.launcher.permission.CHANGE_BADGE",
+        null
+      ],
+      [
+        "com.whatsapp.permission.BROADCAST",
+        null
+      ],
+      [
+        "com.whatsapp.permission.MAPS_RECEIVE",
+        null
+      ],
+      [
+        "com.whatsapp.permission.REGISTRATION",
+        null
+      ],
+      [
+        "com.whatsapp.sticker.READ",
+        null
+      ],
+      [
+        "com.facebook.services.identity.FEO2",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [
+      [
+        "android.permission.CALL_PHONE",
+        null
+      ],
+      [
+        "android.permission.ANSWER_PHONE_CALLS",
+        null
+      ],
+      [
+        "android.permission.READ_CALL_LOG",
+        null
+      ]
+    ],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "com.whatsapp",
+    "versionCode": 230176004,
+    "name": "WhatsApp",
+    "versionName": "2.23.1.76",
+    "minSdkVersion": 16,
+    "targetSdkVersion": 31,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "42cff4edb5fd4307f4aabe5e63d17f00",
+    "signer": "3987d043d10aefaf5a8710b3671418fe57e0e19b653c9df82558feb5ffce5d44",
+    "size": 41159059,
+    "apkName": "com.whatsapp-link2sd.apk",
+    "added": 1686876707.0
+  },
+  "gp.com.turnersark.fakegpspaid-link2sd.apk": {
+    "hash": "77cfa8e443971291441fe07d65a3cc8e4b4d9327980107ac2a855126a92cc0ae",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "com.google.android.providers.gsf.permission.READ_GSERVICES",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_MOCK_LOCATION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "gp.com.turnersark.fakegpspaid.permission.C2D_MESSAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "gp.com.turnersark.fakegpspaid.2.png",
+      "480": "gp.com.turnersark.fakegpspaid.2.png",
+      "320": "gp.com.turnersark.fakegpspaid.2.png",
+      "240": "gp.com.turnersark.fakegpspaid.2.png",
+      "160": "gp.com.turnersark.fakegpspaid.2.png",
+      "0": "gp.com.turnersark.fakegpspaid.2.png"
+    },
+    "antiFeatures": [],
+    "packageName": "gp.com.turnersark.fakegpspaid",
+    "versionCode": 2,
+    "name": "Fake GPS PRO",
+    "versionName": "2.0",
+    "minSdkVersion": 14,
+    "targetSdkVersion": 23,
+    "sig": "c2a09efe90441c09ebebc52f685f2fb5",
+    "signer": "3beece2f8e758a0ca2360f6dafb7eef9915b7ef95cf1f853d07151bab0c52ac4",
+    "size": 4144486,
+    "apkName": "gp.com.turnersark.fakegpspaid-link2sd.apk",
+    "icon": "gp.com.turnersark.fakegpspaid.2.png",
+    "added": 1686875571.0
+  },
+  "org.pocketworkstation.pckeyboard-link2sd.apk": {
+    "hash": "ad06b5cb3fc51c06886181a3b34b4ac06e6ca7f4703029bcab713d8966a7cd85",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.READ_USER_DICTIONARY",
+        null
+      ],
+      [
+        "android.permission.WRITE_USER_DICTIONARY",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {
+      "240": "res/drawable-hdpi-v4/icon.png",
+      "120": "res/drawable-ldpi-v4/icon.png",
+      "160": "res/drawable-mdpi-v4/icon.png",
+      "-1": "res/drawable-mdpi-v4/icon.png"
+    },
+    "icons": {
+      "240": "org.pocketworkstation.pckeyboard.1040007.png",
+      "160": "org.pocketworkstation.pckeyboard.1040007.png",
+      "120": "org.pocketworkstation.pckeyboard.1040007.png",
+      "0": "org.pocketworkstation.pckeyboard.1040007.png"
+    },
+    "antiFeatures": [],
+    "packageName": "org.pocketworkstation.pckeyboard",
+    "versionCode": 1040007,
+    "name": "Hacker's Keyboard",
+    "versionName": "v1.40.7",
+    "minSdkVersion": 14,
+    "targetSdkVersion": 26,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "sig": "2d309e88ddf8621f65b48e9c05203f7a",
+    "signer": "71aade50726ccf9fa43f4bdeb72e470162013e2cf15fc8532e90ae8dda29b562",
+    "size": 2736968,
+    "apkName": "org.pocketworkstation.pckeyboard-link2sd.apk",
+    "icon": "org.pocketworkstation.pckeyboard.1040007.png",
+    "added": 1686875745.0
+  },
+  "ru.SnZeCFhV.NUIxveQtp-link2sd.apk": {
+    "hash": "4a22566e10a9cdf64ee02d758ff00a673a61d3ea4ad51f03535d8232ba04964f",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.ACCESS_SUPERUSER",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "com.android.vending.CHECK_LICENSE",
+        null
+      ],
+      [
+        "android.permission.INTERACT_ACROSS_USERS_FULL",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.KILL_BACKGROUND_PROCESSES",
+        null
+      ],
+      [
+        "android.permission.WRITE_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.REQUEST_DELETE_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_MEDIA_STORAGE",
+        null
+      ],
+      [
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.REORDER_TASKS",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "com.huawei.permission.external_app_settings.USE_COMPONENT",
+        null
+      ],
+      [
+        "oppo.permission.OPPO_COMPONENT_SAFE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.GET_TASKS",
+        23
+      ],
+      [
+        "android.permission.BATTERY_STATS",
+        null
+      ],
+      [
+        "android.permission.READ_PHONE_STATE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "android.permission.Ad_ID",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        25
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.location.network"
+    ],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": [],
+    "packageName": "ru.SnZeCFhV.NUIxveQtp",
+    "versionCode": 1841,
+    "name": "Luck\u0443~\u0420atcher  ",
+    "versionName": "10.8.1",
+    "minSdkVersion": 14,
+    "targetSdkVersion": 28,
+    "sig": "e967c9e5fd92879f6bac96358de84d90",
+    "signer": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+    "size": 10555698,
+    "apkName": "ru.SnZeCFhV.NUIxveQtp-link2sd.apk",
+    "added": 1686876349.0
+  }
+}

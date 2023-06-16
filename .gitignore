@@ -27,3 +27,6 @@ $RECYCLE.BIN/
 # VS Code settings
 **/.vscode/settings.json
 **/.vs/slnx.sqlite
+
+# TOP SECRET stuff (like sensitive data)
+repos/fdroid/config.yml
