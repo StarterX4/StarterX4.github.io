@@ -1,0 +1,20 @@
+footer span {
+	-webkit-text-stroke: 0.1px red;
+	font-family:lucida console,lucida-console-w01,monospace;
+	font-size: 14px;
+	font-weight: 600;
+	display: flex;
+}
+
+ul {
+	position: absolute;
+	margin-top: 0%;
+}
+
+footer a:link {color:#31D644;}
+footer a:visited {color:#BF5AF2;}
+
+code {
+	background-color:#464646;
+	color:lightgrey;
+}

@@ -1,0 +1,77 @@
+{
+	"name": "kether.pl",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://krevik.github.io/",
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.2",
+		"@svgr/webpack": "^8.0.1",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^16.18.12",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"axios": "^1.3.3",
+		"browserify-zlib": "^0.2.0",
+		"create-react-app": "^5.0.1",
+		"crypto": "^1.0.1",
+		"crypto-browserify": "^3.12.0",
+		"gh-pages": "^5.0.0",
+		"html-webpack-plugin": "^5.5.3",
+		"prettier": "^2.8.4",
+		"primeicons": "^6.0.1",
+		"primereact": "^9.0.0-rc.1",
+		"querystring-es3": "^0.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-openidconnect": "^1.1.1",
+		"react-redux": "^8.0.5",
+		"react-scripts": "^5.0.1",
+		"redux-persist": "^6.0.0",
+		"stream-browserify": "^3.0.0",
+		"typescript": "^4.9.5",
+		"url": "^0.11.0",
+		"util": "^0.12.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build && shx cp build/index.html build/404.html",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"runBoth": "run-p server start"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"react-router-dom": "^6.10.0",
+		"shx": "^0.3.4"
+	},
+	"prettier": {
+		"trailingComma": "es5",
+		"tabWidth": 4,
+		"semi": true,
+		"singleQuote": true,
+		"indent_size": 2,
+		"max_line_length": 144
+	}
+}

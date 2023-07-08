@@ -1,0 +1,37 @@
+.navigation-menu {
+	display: flex;
+	place-content: center;
+	gap: var(--standardGap);
+	font-family: "Turret Road";
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	background-color: #464646;
+	height: 28px;
+	position: relative;
+}
+
+.navigation-menu .p-button {
+	font-family: "Turret Road";
+	font-size: 20px;
+	background: rgba(61,56,60,0.6530987394957983) 50%;
+	color: #d3e0e3;
+	border: 2px #383535 solid;
+	transition: all 0.1s;
+}
+
+.navigation-menu .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+	color: #d3e0e3;
+	border: 2px #383535 solid;
+	-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+	-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+	box-shadow: inset 0px 0px 5px #c1c1c1;
+	outline: none;
+	background: rgba(61,56,60,0.6530987394957983) 100%;
+}
+
+.sites .p-button {
+	background: transparent;
+	cursor: pointer;
+}
+

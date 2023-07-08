@@ -1,0 +1,71 @@
+.sites {
+	font-family: "Turret Road";
+	font-size: large;
+	background: rgba(61,56,60,0.6530987394957983) 50%;
+	color: #d3e0e3;
+	border: 2px #383535 solid;
+	transition: all 0.1s;
+}
+
+.sites .p-button {
+	font-family: "Turret Road";
+	background: rgba(61,56,60,0.6530987394957983) 50%;
+	color: #d3e0e3;
+	border: 2px #383535 solid;
+	transition: all 0.1s;
+}
+
+.sites button {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: flex;
+	right: 44%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: #1C1B22;
+	min-width: 360px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin: 0;
+	top: 28px;
+	border-radius: 5px;
+	border: 0.5px #383535 solid;
+  }
+
+  .dropdown-content svg	{position: relative; display:inline-flex;}
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: #d3e0e3;
+	padding: 8px 10px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(77,79,78)}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .sites {
+	color: #d3e0e3;
+	border: 2px #383535 solid;
+	-webkit-box-shadow: inset 0px 0px 5px 2px #c1c1c1;
+	-moz-box-shadow: inset 0px 0px 5px 2px #c1c1c1;
+	box-shadow: inset 0px 0px 5px 2px #c1c1c1;
+	outline: none;
+	background: rgba(61,56,60,0.6530987394957983) 50%;
+  }

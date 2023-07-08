@@ -1,0 +1,49 @@
+.home-page {
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	place-content: center;
+}
+
+.home-page .section span {
+	font-family: "Ysabeau SC";
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.home-page .p-datatable {
+	font-family: "Ysabeau SC";
+	font-size: 1.2rem;
+	-webkit-text-stroke: 1px black;
+}
+
+.home-page .p-datatable .p-datatable-tbody > tr {
+	background: transparent;
+	border: none;
+}
+
+.home-page .p-datatable .p-datatable-thead > tr > th {
+	background: transparent;
+	border: none;
+}
+
+.home-page .p-datatable .p-datatable-tbody > tr > td {
+	border: none;
+}
+
+.home-page button {
+	background: greenyellow;
+}
+
+.home-page a:link {color:#31D644;}
+.home-page a:visited {color:#BF5AF2;}
+
+.player-list-table {
+	backdrop-filter: blur(10px);
+}
+
+.player-list-table .p-datatable-scrollable .p-datatable-wrapper span {
+	font-size: 1rem;
+}
