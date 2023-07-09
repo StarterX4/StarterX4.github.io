@@ -27,10 +27,6 @@ export default function TiddlerSection() {
                 </ul>
 
                 <br/><br/>
-
-                Contact:<br/>
-                ✉️ starterx4[AT]gmail[DOT]com <br/>
-                Discord <code>StarterX4</code>(#0254)
             </span>
         </div>
     );

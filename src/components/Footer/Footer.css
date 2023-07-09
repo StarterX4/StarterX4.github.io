@@ -3,7 +3,9 @@ footer span {
 	font-family:lucida console,lucida-console-w01,monospace;
 	font-size: 14px;
 	font-weight: 600;
-	display: flex;
+	display: block;
+	flex-direction: column;
+	overflow: hidden;
 }
 
 ul {
@@ -20,3 +22,5 @@ code {
 	display: inline-flex;
 	white-space: normal !important;
 }
+
+span.contact {float: right; margin: -2.5% 15px; white-space: pre-wrap;}
