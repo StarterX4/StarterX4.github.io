@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87da2a30.css",
-    "main.js": "/static/js/main.9300e8c8.js",
+    "main.js": "/static/js/main.68558a26.js",
     "static/media/GaySigilOfBaphomet.png": "/static/media/GaySigilOfBaphomet.e2cfbb92266e48b70f2a.png",
     "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/YsabeauSC-VariableFont_wght.ttf": "/static/media/YsabeauSC-VariableFont_wght.b556c9de80a323c7b6f9.ttf",
@@ -25,15 +25,18 @@
     "static/media/TurretRoad-Light.ttf": "/static/media/TurretRoad-Light.08597862971d1d816d6f.ttf",
     "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
     "static/media/Ysabeau.woff2": "/static/media/Ysabeau.ac13e53da0af1848552e.woff2",
+    "static/media/lastfm-svgrepo.png": "/static/media/lastfm-svgrepo.6fe76c043df3756171e3.png",
+    "static/media/github-svgrepo.png": "/static/media/github-svgrepo.edadbd5a339b438f40be.png",
+    "static/media/steam-logo-svgrepo.png": "/static/media/steam-logo-svgrepo.213b764cfffcab7f8f68.png",
     "static/media/TurretRoad.woff2": "/static/media/TurretRoad.53a89e9a5c75292964cf.woff2",
     "static/media/discord-mark-blue.png": "/static/media/discord-mark-blue.667df059ddf407979d68.png",
     "static/media/color.png": "/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/index.html",
     "main.87da2a30.css.map": "/static/css/main.87da2a30.css.map",
-    "main.9300e8c8.js.map": "/static/js/main.9300e8c8.js.map"
+    "main.68558a26.js.map": "/static/js/main.68558a26.js.map"
   },
   "entrypoints": [
     "static/css/main.87da2a30.css",
-    "static/js/main.9300e8c8.js"
+    "static/js/main.68558a26.js"
   ]
 }
