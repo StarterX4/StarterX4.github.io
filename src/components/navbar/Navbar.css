@@ -17,15 +17,15 @@
 	background: rgba(61,56,60,0.6530987394957983) 50%;
 	color: #d3e0e3;
 	border: 2px #383535 solid;
-	transition: all 0.1s;
+	transition: all 0.2s;
 }
 
-.navigation-menu .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+.navigation-menu .p-button:enabled:hover, .p-button:enabled:focus, .p-button:not(button):not(a):not(.p-disabled):hover {
 	color: #d3e0e3;
 	border: 2px #383535 solid;
-	-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-	-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-	box-shadow: inset 0px 0px 5px #c1c1c1;
+	-webkit-box-shadow: inset 0px 3.25em 0px #c1c1c144;
+	-moz-box-shadow: inset 0px 3.25em 0px #c1c1c144;
+	box-shadow: inset 0px 3.25em 0px #c1c1c144;
 	outline: none;
 	background: rgba(61,56,60,0.6530987394957983) 100%;
 }

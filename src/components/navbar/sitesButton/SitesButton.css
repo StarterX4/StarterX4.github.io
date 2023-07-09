@@ -24,7 +24,7 @@
   .dropdown {
 	position: relative;
 	display: flex;
-	right: 44%;
+	right: 32.5%;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -63,9 +63,9 @@
   .dropdown:hover .sites {
 	color: #d3e0e3;
 	border: 2px #383535 solid;
-	-webkit-box-shadow: inset 0px 0px 5px 2px #c1c1c1;
-	-moz-box-shadow: inset 0px 0px 5px 2px #c1c1c1;
-	box-shadow: inset 0px 0px 5px 2px #c1c1c1;
+	-webkit-box-shadow: inset 0px 3.25em 0px #c1c1c144;
+	-moz-box-shadow: inset 0px 3.25em 0px #c1c1c144;
+	box-shadow: inset 0px 3.25em 0px #c1c1c144;
 	outline: none;
 	background: rgba(61,56,60,0.6530987394957983) 50%;
   }

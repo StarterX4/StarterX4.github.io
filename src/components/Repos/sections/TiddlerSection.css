@@ -1,0 +1,20 @@
+.RepSection {
+	display:flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #282828;
+    position: relative;
+    padding: 42px 42px 42px 42px;
+    border-radius: 8px;
+    border: 10px solid invisible;
+	min-width: 40%;
+    max-width: 80%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-size: medium;
+    direction: ltr;
+    overflow: hidden;
+    place-content: center;
+}
+
+span.archblu{color: rgb(0, 204, 204);}
+span.manjarogren{color: rgb(0, 204, 51);}

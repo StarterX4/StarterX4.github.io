@@ -17,4 +17,6 @@ footer a:visited {color:#BF5AF2;}
 code {
 	background-color:#464646;
 	color:lightgrey;
+	display: inline-flex;
+	white-space: normal !important;
 }

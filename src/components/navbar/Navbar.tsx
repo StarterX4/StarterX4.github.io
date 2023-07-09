@@ -17,10 +17,10 @@ export default function Navbar() {
             label: 'Home',
             targetPage: pagePaths.HOME_PAGE,
         },
-        // {
-        //     label: 'Game Stats',
-        //     targetPage: pagePaths.GAME_STATS,
-        // },
+        {
+            label: 'Repositories',
+            targetPage: pagePaths.REPOS,
+        },
     ];
 
     const getNavigationButtons = () => {

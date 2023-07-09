@@ -1,0 +1,38 @@
+.repos {
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	place-content: center;
+}
+
+.repos .RepSection span {
+	font-family: "Ysabeau SC";
+	font-size: .95rem;
+	font-weight: 600;
+}
+
+.repos .RepSection .left1 {
+	float: left;
+	margin: -12px 8px;
+}
+
+.repos .RepSection .right1 {
+	float: left;
+	margin: -12px 8px;
+}
+
+.repos .RepSection .left2 {
+	float: left;
+	margin: -12px 8px;
+}
+
+.repos code {min-width: 560px;}
+
+.repos button {
+	background: greenyellow;
+}
+
+.repos a:link {color:#31D644;}
+.repos a:visited {color:#BF5AF2;}

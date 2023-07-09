@@ -1,5 +1,5 @@
 import HomePage from '../HomePage/HomePage';
-//import GameStats from '../GameStats/GameStats';
+import Repos from '../Repos/Repos';
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -14,10 +14,10 @@ export default function KetherApplication() {
             <>
                 <Route path="/" element={<HomePage />} />
                 <Route path={pagePaths.HOME_PAGE} element={<HomePage />} />
+                <Route path={pagePaths.REPOS} element={<Repos />} />
             </>
         )
     );
-//<Route path={pagePaths.GAME_STATS} element={<GameStats />} />
     return (
         <>
             <RouterProvider router={router} />
