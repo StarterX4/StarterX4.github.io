@@ -1,8 +1,8 @@
 {
-	"name": "kether.pl",
+	"name": "starterx4.github.io",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://krevik.github.io/",
+	"homepage": "https://starterx4.github.io/",
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.2",
 		"@svgr/webpack": "^8.0.1",
