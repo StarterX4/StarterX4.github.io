@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87da2a30.css",
+    "main.js": "/static/js/main.9300e8c8.js",
+    "static/media/GaySigilOfBaphomet.png": "/static/media/GaySigilOfBaphomet.e2cfbb92266e48b70f2a.png",
+    "static/media/primeicons.svg": "/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/YsabeauSC-VariableFont_wght.ttf": "/static/media/YsabeauSC-VariableFont_wght.b556c9de80a323c7b6f9.ttf",
+    "static/media/YsabeauSC-Black.ttf": "/static/media/YsabeauSC-Black.73962355ec68ba9e3009.ttf",
+    "static/media/YsabeauSC-ExtraBold.ttf": "/static/media/YsabeauSC-ExtraBold.2cf26027e7612de3678f.ttf",
+    "static/media/YsabeauSC-Regular.ttf": "/static/media/YsabeauSC-Regular.329e94698a82530062a6.ttf",
+    "static/media/YsabeauSC-Medium.ttf": "/static/media/YsabeauSC-Medium.30bfefbb734de750e8dc.ttf",
+    "static/media/YsabeauSC-SemiBold.ttf": "/static/media/YsabeauSC-SemiBold.7b9008a58e8ba816fb87.ttf",
+    "static/media/YsabeauSC-Light.ttf": "/static/media/YsabeauSC-Light.4dbcaa472bf6ccd1342b.ttf",
+    "static/media/YsabeauSC-ExtraLight.ttf": "/static/media/YsabeauSC-ExtraLight.1e6f50e69aa9b936bbdb.ttf",
+    "static/media/YsabeauSC-Thin.ttf": "/static/media/YsabeauSC-Thin.648e191f745d6327c35f.ttf",
+    "static/media/YsabeauSC-Bold.ttf": "/static/media/YsabeauSC-Bold.98320e8dc6c77ec8a62f.ttf",
+    "static/media/primeicons.eot": "/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/TurretRoad-ExtraBold.ttf": "/static/media/TurretRoad-ExtraBold.ba347404cb3d3681430e.ttf",
+    "static/media/TurretRoad-Medium.ttf": "/static/media/TurretRoad-Medium.85f93826b67373a0a1e9.ttf",
+    "static/media/TurretRoad-ExtraLight.ttf": "/static/media/TurretRoad-ExtraLight.d71d11434e3086e75f8d.ttf",
+    "static/media/TurretRoad-Regular.ttf": "/static/media/TurretRoad-Regular.69fb69523f8e20794649.ttf",
+    "static/media/TurretRoad-Bold.ttf": "/static/media/TurretRoad-Bold.492744ecf7bb8f4f4b77.ttf",
+    "static/media/TurretRoad-Light.ttf": "/static/media/TurretRoad-Light.08597862971d1d816d6f.ttf",
+    "static/media/primeicons.woff2": "/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/Ysabeau.woff2": "/static/media/Ysabeau.ac13e53da0af1848552e.woff2",
+    "static/media/TurretRoad.woff2": "/static/media/TurretRoad.53a89e9a5c75292964cf.woff2",
+    "static/media/discord-mark-blue.png": "/static/media/discord-mark-blue.667df059ddf407979d68.png",
+    "static/media/color.png": "/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/index.html",
+    "main.87da2a30.css.map": "/static/css/main.87da2a30.css.map",
+    "main.9300e8c8.js.map": "/static/js/main.9300e8c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87da2a30.css",
+    "static/js/main.9300e8c8.js"
+  ]
+}
