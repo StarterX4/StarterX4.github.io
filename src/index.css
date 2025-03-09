@@ -5,6 +5,8 @@ body {
 		"Noto Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+    background-position: center;
+    background-size: cover;
 }
 
 pre {
@@ -55,7 +57,7 @@ body {
 }
 
 #root {
-	min-width: 640px;
+	min-width: 100%;
 	height: 100%;
 	width: 100%;
 }

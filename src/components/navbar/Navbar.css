@@ -9,6 +9,7 @@
 	background-color: #464646;
 	height: 28px;
 	position: relative;
+	overflow: visible;
 }
 
 .navigation-menu .p-button {
@@ -35,3 +36,13 @@
 	cursor: pointer;
 }
 
+@media (max-width: 600px) {
+	.navigation-menu {
+        flex-direction:row;
+		flex-wrap: wrap;
+		overflow-x: auto;
+    }
+    .navigation-menu .p-button {
+		max-height: 28px;
+    }
+}

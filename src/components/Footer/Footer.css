@@ -24,3 +24,9 @@ code {
 }
 
 span.contact {float: right; margin: -2.5% 15px; white-space: pre-wrap;}
+
+@media (max-width: 600px) {
+	footer span {font-size: xx-small;}
+	footer ul {margin-right: 10px; display: flex;}
+	span.contact {float: right;}
+}

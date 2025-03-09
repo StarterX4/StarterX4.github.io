@@ -7,9 +7,9 @@ export default function Footer() {
 <ul><li><span>
 <a href="https://github.com/StarterX4/StarterX4.github.io" rel="noopener noreferrer" target="_blank">https://github.com/StarterX4/StarterX4.github.io</a>
 </span></li></ul>
-        <span className="contact">  Contact:<br/>
+        <span className="contact"><p>   Contact:<br/>
                 ✉️ starterx4[ÄṪ]gmail[ḊÔṪ]com <br/>
-                <i className='pi pi-discord'></i> StarterX4(#0254)</span>
+                <i className='pi pi-discord'></i> StarterX4</p></span>
         </footer>
     );
 }

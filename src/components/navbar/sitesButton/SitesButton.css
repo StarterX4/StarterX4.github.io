@@ -25,6 +25,13 @@
 	position: relative;
 	display: flex;
 	right: 32.5%;
+	float: left;
+  }
+
+  @media (max-width: 600px) {
+	.dropdown {
+	  right: 5%;
+	}
   }
   
   /* Dropdown Content (Hidden by Default) */

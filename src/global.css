@@ -48,6 +48,12 @@
 	font-family: "Ysabeau SC";
 	font-size: 2rem;
 	font-weight: 600;
+	overflow-wrap: break-word;
+    margin-bottom: var(--standardGap);
+	word-wrap: break-word;
+	word-break: break-word;
+	height: auto;
+	min-height: 100px;
 }
 
 .textregular {font-family: "Ysabeau SC"; font-size: small;}
