@@ -20,9 +20,3 @@
         background-size: cover;
     }
 }
-
-@supports (-moz-appearance: none) {
-    .section {
-        background-position: center !important;
-    }
-}

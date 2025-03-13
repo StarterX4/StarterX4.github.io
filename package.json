@@ -4,6 +4,7 @@
 	"private": true,
 	"homepage": "https://starterx4.github.io/",
 	"dependencies": {
+		"@lynx-js/react": "^0.105.1",
 		"@mantine/core": "^6.0.16",
 		"@mantine/hooks": "^6.0.16",
 		"@reduxjs/toolkit": "^1.9.2",
