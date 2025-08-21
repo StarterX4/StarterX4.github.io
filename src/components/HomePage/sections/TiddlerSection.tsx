@@ -8,7 +8,8 @@ export default function TiddlerSection() {
 				<p>A hobby dev and gamer, based in Central 🇪🇺 Europe.</p>
 				<p>Projects I recently work on:</p>
 				<ul>
-					<li><a href='https://github.com/StarterX4/L4AddonEnforcer'>L4AddonEnforcer</a></li></ul><br/>
+					<li><a href='https://github.com/StarterX4/L4AddonEnforcer'>L4AddonEnforcer</a></li>
+				</ul><br/>
 				<p style={{paddingLeft: '2rem'}}>An addon manager 
 				that lets you easily install (and manage them) addons to the <code>gameinfo.txt</code> file, 
 				and therefore let you use them on official versus/scavenge servers
@@ -21,8 +22,15 @@ export default function TiddlerSection() {
 				<p>Projects I recently actively help develop:</p>
 				
 				<ul>
-				<li><a href='https://Kether.pl'>Kether.pl</a> <a href='https://github.com/Krevik/Kether.pl-L4D2-Server'>L4D2 T1/Zonemod Server</a> (IP: <a href='steam://connect/51.83.217.86:29800'>51.83.217.86:29800</a> (IP link to join directly))</li>
+				<li><a href='https://Kether.pl'>Kether.pl</a> <a href='https://github.com/Krevik/Kether.pl-L4D2-Server'>L4D2 T1/Zonemod Server</a> (IP: <a href='steam://connect/54.36.179.182:27015'>54.36.179.182:27015</a> (IP link to join directly))</li>
+					<ul>
+						<li><a href='https://github.com/KetherPL/Kether.pl-website-server'>Kether Internal Services Server</a></li>
+					</ul>
 				</ul>
+				<br/>
+				<p style={{paddingLeft: '4.5rem'}}>
+				A server that performs various tasks for the Kether.pl website, L4D2 server and other services.
+				</p>
 				<br/><br/>
                 <p>Projects I worked on in the past:</p>
 				

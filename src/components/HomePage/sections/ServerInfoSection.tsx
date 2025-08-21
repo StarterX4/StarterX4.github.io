@@ -68,7 +68,7 @@ export default function ServerInfoSection() {
     return (
         <div className="section">
             <span>Name: {serverInfo?.name}</span>
-            <span>IP: 51.83.217.86:29800</span>
+            <span>IP: 54.36.179.182:27015</span>
             <span>
                 Players: {serverInfo?.players}/{serverInfo?.maxplayers}
             </span>
@@ -81,7 +81,7 @@ export default function ServerInfoSection() {
                     label="Join game"
                     onClick={() => {
                         window.location.href =
-                            'steam://connect/51.83.217.86:29800';
+                            'steam://connect/54.36.179.182:27015';
                     }}
                 ></Button>
             </span>
