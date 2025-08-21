@@ -3,22 +3,30 @@ import { userDataReducer } from './slices/userDataSlice';
 import storage from 'redux-persist/lib/storage';
 import { persistReducer, persistStore } from 'redux-persist';
 
-
 const persistConfig = {
-    key: 'root',
-    storage,
+	key: 'root',
+	storage,
+	whitelist: ['userData'], // Only persist user data
 };
+
 const persistedUserDataReducer = persistReducer(persistConfig, userDataReducer);
 
-const combinedReducers = combineReducers({
-    userDataReducer: persistedUserDataReducer,
+const rootReducer = combineReducers({
+	userData: persistedUserDataReducer,
 });
 
 export const appStore = configureStore({
-    reducer: combinedReducers,
+	reducer: rootReducer,
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware({
+			serializableCheck: {
+				ignoredActions: ['persist/PERSIST', 'persist/REHYDRATE'],
+			},
+		}),
 });
 
 export const persistedAppStore = persistStore(appStore);
 
-export type AppState = ReturnType<typeof appStore.getState>;
+// Infer the `RootState` and `AppDispatch` types from the store itself
+export type RootState = ReturnType<typeof appStore.getState>;
 export type AppDispatch = typeof appStore.dispatch;

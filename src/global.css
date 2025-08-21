@@ -53,7 +53,8 @@
 	word-wrap: break-word;
 	word-break: break-word;
 	height: auto;
-	min-height: 100px;
+	line-height: 1.4;
+	color: #d3e0e3;
 }
 
 .textregular {font-family: "Ysabeau SC"; font-size: small;}

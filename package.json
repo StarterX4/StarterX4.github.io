@@ -22,9 +22,16 @@
 		"build": "react-scripts build && shx cp build/index.html build/404.html",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
+		"predeploy": "pnpm run build",
 		"deploy": "gh-pages -d build",
-		"runBoth": "run-p server start"
+		"runBoth": "run-p server start",
+		"lint": "eslint src --ext .ts,.tsx",
+		"lint:fix": "eslint src --ext .ts,.tsx --fix",
+		"type-check": "tsc --noEmit",
+		"format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+		"format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+		"clean": "rm -rf node_modules pnpm-lock.yaml",
+		"reinstall": "pnpm install"
 	},
 	"eslintConfig": {
 		"extends": [

@@ -15,8 +15,8 @@ export default function KetherApplication() {
                 <Route path="/" element={<HomePage />} />
                 <Route path={pagePaths.HOME_PAGE} element={<HomePage />} />
                 <Route path={pagePaths.REPOS} element={<Repos />} />
-            </>
-        )
+            </>,
+        ),
     );
     return (
         <>
