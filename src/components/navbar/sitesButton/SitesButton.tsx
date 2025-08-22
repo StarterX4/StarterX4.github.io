@@ -4,10 +4,10 @@ import GH_L from '../../../resources/favicons/github-svgrepo.png';
 import ST_L from '../../../resources/favicons/steam-logo-svgrepo.png';
 import ARCH_L from '../../../resources/favicons/arch-linux-svgrepo-com.png';
 import LFM_L from '../../../resources/favicons/lastfm-svgrepo.png';
+import React from 'react';
 //import  GH_I from '../../../resources/favicons/github-svgrepo.svg' //Doesn't work because of a broken dependency (@svgr/webpack)
 
-
-export default function SitesButton() {
+const SitesButton: React.FC = React.memo(() => {
     return(
     <div className="dropdown">
   <button className="sites"><img src={PentaGay} width="20px" height="20px" alt="Site icon"></img> Sites <svg width="8pt" height="8pt" viewBox="0 0 132 132" fill="#d3e0e3"><path d="M64.177 100.069a7.889 7.889 0 01-5.6-2.316l-55.98-55.98a7.92 7.92 0 010-11.196c3.086-3.085 8.105-3.092 11.196 0l50.382 50.382 50.382-50.382a7.92 7.92 0 0111.195 0c3.086 3.086 3.092 8.104 0 11.196l-55.98 55.98a7.892 7.892 0 01-5.595 2.316z"></path></svg></button>
@@ -23,4 +23,8 @@ export default function SitesButton() {
 
   </div>
 </div>);
-}
+});
+
+SitesButton.displayName = 'SitesButton';
+
+export default SitesButton;

@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 import { appStore, persistedAppStore } from './redux/store';
 import './global.css';
 import { PersistGate } from 'redux-persist/integration/react';
+import { reportWebVitals } from './utils/webVitals';
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement,
@@ -22,3 +23,6 @@ root.render(
 		</Provider>
 	</React.StrictMode>,
 );
+
+// Report Web Vitals for performance monitoring
+reportWebVitals();

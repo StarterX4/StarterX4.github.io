@@ -20,9 +20,11 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build && shx cp build/index.html build/404.html",
+		"build:analyze": "cross-env GENERATE_SOURCEMAP=false react-scripts build && webpack-bundle-analyzer build/static/js/*.js",
+		"build:prod": "cross-env GENERATE_SOURCEMAP=false react-scripts build && shx cp build/index.html build/404.html",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "pnpm run build",
+		"predeploy": "pnpm run build:prod",
 		"deploy": "gh-pages -d build",
 		"runBoth": "run-p server start",
 		"lint": "eslint src --ext .ts,.tsx",
@@ -31,7 +33,9 @@
 		"format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
 		"format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
 		"clean": "rm -rf node_modules pnpm-lock.yaml",
-		"reinstall": "pnpm install"
+		"reinstall": "pnpm install",
+		"performance:analyze": "pnpm run build:analyze",
+		"performance:check": "pnpm run build:prod && npx lighthouse http://localhost:3000 --output=json --output-path=./lighthouse-report.json"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -54,8 +58,11 @@
 		]
 	},
 	"devDependencies": {
+		"cross-env": "10.0.0",
 		"react-router-dom": "7.3.0",
-		"shx": "^0.4.0"
+		"shx": "^0.4.0",
+		"web-vitals": "5.1.0",
+		"webpack-bundle-analyzer": "4.10.2"
 	},
 	"prettier": {
 		"trailingComma": "es5",
