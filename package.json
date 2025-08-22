@@ -19,12 +19,13 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build && shx cp build/index.html build/404.html",
+		"build": "cross-env GENERATE_SOURCEMAP=false react-scripts build && shx cp build/index.html build/404.html",
 		"build:analyze": "cross-env GENERATE_SOURCEMAP=false react-scripts build && webpack-bundle-analyzer build/static/js/*.js",
-		"build:prod": "cross-env GENERATE_SOURCEMAP=false react-scripts build && shx cp build/index.html build/404.html",
+		"build:analyze:dev": "npm run build:dev && npx webpack-bundle-analyzer build/static/js/*.js",
+		"build:dev": "cross-env GENERATE_SOURCEMAP=true react-scripts build && shx cp build/index.html build/404.html",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "pnpm run build:prod",
+		"predeploy": "pnpm run build",
 		"deploy": "gh-pages -d build",
 		"runBoth": "run-p server start",
 		"lint": "eslint src --ext .ts,.tsx",
@@ -35,7 +36,7 @@
 		"clean": "rm -rf node_modules pnpm-lock.yaml",
 		"reinstall": "pnpm install",
 		"performance:analyze": "pnpm run build:analyze",
-		"performance:check": "pnpm run build:prod && npx lighthouse http://localhost:3000 --output=json --output-path=./lighthouse-report.json"
+		"performance:check": "pnpm run build && npx lighthouse http://localhost:3000 --output=json --output-path=./lighthouse-report.json"
 	},
 	"eslintConfig": {
 		"extends": [
