@@ -10,6 +10,7 @@ import { appStore, persistedAppStore } from './redux/store';
 import './global.css';
 import { PersistGate } from 'redux-persist/integration/react';
 import { reportWebVitals } from './utils/webVitals';
+import { preloadCriticalComponents } from './utils/preloading';
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement,
@@ -26,3 +27,6 @@ root.render(
 
 // Report Web Vitals for performance monitoring
 reportWebVitals();
+
+// Preload critical components for better perceived performance
+preloadCriticalComponents();

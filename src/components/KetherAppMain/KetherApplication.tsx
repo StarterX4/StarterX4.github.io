@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Loading } from '../Loading/Loading';
+import { SkeletonLoading } from '../Loading/SkeletonLoading';
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -12,17 +12,8 @@ import { pagePaths } from '../../utils/pagePaths';
 const HomePage = React.lazy(() => import('../HomePage/HomePage'));
 const Repos = React.lazy(() => import('../Repos/Repos'));
 
-// Loading fallback component
-const PageLoader: React.FC = () => (
-    <div style={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        minHeight: '50vh', 
-    }}>
-        <Loading size="large" text="Loading page..." />
-    </div>
-);
+// Smart loading fallback - shows skeleton immediately
+const PageLoader: React.FC = () => <SkeletonLoading type="page" />;
 
 export default function KetherApplication() {
     const router = createBrowserRouter(

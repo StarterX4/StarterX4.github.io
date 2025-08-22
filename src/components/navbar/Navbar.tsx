@@ -4,10 +4,12 @@ import { Button } from 'primereact/button';
 import { useNavigate } from 'react-router-dom';
 import { pagePaths } from '../../utils/pagePaths';
 import React, { useCallback, useMemo } from 'react';
+import { preloadOnHover } from '../../utils/preloading';
 
 interface TabItem {
     label: string;
     targetPage: string;
+    preloadComponent?: () => Promise<any>;
 }
 
 const Navbar: React.FC = React.memo(() => {
@@ -17,10 +19,12 @@ const Navbar: React.FC = React.memo(() => {
         {
             label: 'Home',
             targetPage: pagePaths.HOME_PAGE,
+            preloadComponent: () => import('../HomePage/HomePage'),
         },
         {
             label: 'Repositories',
             targetPage: pagePaths.REPOS,
+            preloadComponent: () => import('../Repos/Repos'),
         },
     ], []);
 
@@ -29,14 +33,24 @@ const Navbar: React.FC = React.memo(() => {
     }, [navigate]);
 
     const getNavigationButtons = useCallback(() => {
-        return tabs.map((tab) => (
-            <Button
-                key={tab.label}
-                onClick={() => handleNavigation(tab.targetPage)}
-            >
-                {tab.label}
-            </Button>
-        ));
+        return tabs.map((tab) => {
+            const { preload, cancelPreload } = preloadOnHover(
+                tab.preloadComponent || (() => Promise.resolve()),
+            );
+
+            return (
+                <Button
+                    key={tab.label}
+                    onClick={() => handleNavigation(tab.targetPage)}
+                    onMouseEnter={preload}
+                    onMouseLeave={cancelPreload}
+                    onFocus={preload}
+                    onBlur={cancelPreload}
+                >
+                    {tab.label}
+                </Button>
+            );
+        });
     }, [tabs, handleNavigation]);
 
     return (
