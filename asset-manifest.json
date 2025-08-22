@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cec8541.css",
-    "main.js": "/static/js/main.6677fefb.js",
-    "static/css/900.40b9e9bf.chunk.css": "/static/css/900.40b9e9bf.chunk.css",
-    "static/js/900.06ff91f4.chunk.js": "/static/js/900.06ff91f4.chunk.js",
-    "static/css/88.e95c7c82.chunk.css": "/static/css/88.e95c7c82.chunk.css",
-    "static/js/88.d3f4f307.chunk.js": "/static/js/88.d3f4f307.chunk.js",
+    "main.css": "/static/css/main.870ee361.css",
+    "main.js": "/static/js/main.ab988f21.js",
+    "static/css/236.40b9e9bf.chunk.css": "/static/css/236.40b9e9bf.chunk.css",
+    "static/js/236.a8fc45c6.chunk.js": "/static/js/236.a8fc45c6.chunk.js",
+    "static/css/848.e95c7c82.chunk.css": "/static/css/848.e95c7c82.chunk.css",
+    "static/js/848.cc8b1fd3.chunk.js": "/static/js/848.cc8b1fd3.chunk.js",
+    "static/css/199.a520f08f.chunk.css": "/static/css/199.a520f08f.chunk.css",
+    "static/js/199.04ff16e8.chunk.js": "/static/js/199.04ff16e8.chunk.js",
+    "static/css/155.a6c1c633.chunk.css": "/static/css/155.a6c1c633.chunk.css",
+    "static/js/155.72881fcb.chunk.js": "/static/js/155.72881fcb.chunk.js",
     "static/js/160.11c14b1b.chunk.js": "/static/js/160.11c14b1b.chunk.js",
     "static/media/GaySigilOfBaphomet.png": "/static/media/GaySigilOfBaphomet.e2cfbb92266e48b70f2a.png",
     "static/media/primeicons.svg": "/static/media/primeicons.6ed59f962963a4a73af2.svg",
@@ -37,7 +41,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.7cec8541.css",
-    "static/js/main.6677fefb.js"
+    "static/css/main.870ee361.css",
+    "static/js/main.ab988f21.js"
   ]
 }
