@@ -10,7 +10,7 @@ export default function Footer() {
 </span></li></ul>
         <span className="contact"><p>   Contact:<br/>
                 ✉️ starterx4[ÄṪ]gmail[ḊÔṪ]com <br/>
-                <img src={DC} width="20px" height="15px" alt="DC"></img> StarterX4</p></span>
+                <img src={DC} width="17px" height="13px" alt="DC"></img> StarterX4</p></span>
         </footer>
     );
 }
