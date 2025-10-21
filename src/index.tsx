@@ -4,10 +4,8 @@ import './index.css';
 import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import KetherApplication from './components/KetherAppMain/KetherApplication';
-import { Provider } from 'react-redux';
 import { appStore, persistedAppStore } from './redux/store';
 import './global.css';
-import { PersistGate } from 'redux-persist/integration/react';
 import { reportWebVitals } from './utils/webVitals';
 import { preloadCriticalComponents } from './utils/preloading';
 
@@ -16,11 +14,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 	<React.StrictMode>
-		<Provider store={appStore}>
-			<PersistGate loading={null} persistor={persistedAppStore}>
-				<KetherApplication />
-			</PersistGate>
-		</Provider>
+		<KetherApplication />
 	</React.StrictMode>,
 );
 
