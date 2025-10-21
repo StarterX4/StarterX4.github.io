@@ -6,18 +6,7 @@
 
 @font-face {
 	font-family: "Ysabeau SC";
-	src: url("./resources/fonts/YsabeauSC-VariableFont_wght.ttf");
-	src: url("./resources/fonts/YsabeauSC-VariableFont_wght.ttf?#wght") format("truetype"),
-		url("./resources/fonts/Ysabeau.woff2") format("woff2"),
-		url("./resources/fonts/YsabeauSC-Light.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-Thin.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-ExtraLight.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-Regular.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-Medium.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-SemiBold.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-Bold.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-ExtraBold.ttf") format("truetype"),
-		url("./resources/fonts/YsabeauSC-Black.ttf") format("truetype");
+	src: url("./resources/fonts/Ysabeau.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -25,13 +14,7 @@
 
 @font-face {
 	font-family: "Turret Road";
-	src: url("./resources/fonts/TurretRoad.woff2") format("woff2"),
-		url("./resources/fonts/TurretRoad-Light.ttf") format("truetype"),
-		url("./resources/fonts/TurretRoad-ExtraLight.ttf") format("truetype"),
-		url("./resources/fonts/TurretRoad-Regular.ttf") format("truetype"),
-		url("./resources/fonts/TurretRoad-Medium.ttf") format("truetype"),
-		url("./resources/fonts/TurretRoad-Bold.ttf") format("truetype"),
-		url("./resources/fonts/TurretRoad-ExtraBold.ttf") format("truetype");
+	src: url("./resources/fonts/TurretRoad.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
