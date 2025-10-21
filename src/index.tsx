@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
 import KetherApplication from './components/KetherAppMain/KetherApplication';
 import { Provider } from 'react-redux';
 import { appStore, persistedAppStore } from './redux/store';

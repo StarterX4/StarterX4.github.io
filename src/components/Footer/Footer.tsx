@@ -1,4 +1,5 @@
 import './Footer.css';
+import DC from '../../resources/favicons/discord-mark-blue.png';
 
 export default function Footer() {
     return (
@@ -9,7 +10,7 @@ export default function Footer() {
 </span></li></ul>
         <span className="contact"><p>   Contact:<br/>
                 ✉️ starterx4[ÄṪ]gmail[ḊÔṪ]com <br/>
-                <i className='pi pi-discord'></i> StarterX4</p></span>
+                <img src={DC} width="20px" height="15px" alt="DC"></img> StarterX4</p></span>
         </footer>
     );
 }
