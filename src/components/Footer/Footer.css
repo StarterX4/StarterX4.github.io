@@ -1,3 +1,12 @@
+footer {
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 99%;
+	padding: 20px;
+	border-radius: 10px;
+}
+
 footer span {
 	-webkit-text-stroke: 0.1px red;
 	font-family:lucida console,lucida-console-w01,monospace;
@@ -11,6 +20,7 @@ footer span {
 ul {
 	position: absolute;
 	margin-top: 0%;
+	color: #d3e0e3;
 }
 
 footer a:link {color:#31D644;}
@@ -21,6 +31,10 @@ code {
 	color:lightgrey;
 	display: inline-flex;
 	white-space: normal !important;
+}
+
+p {
+	color: #d3e0e3;
 }
 
 span.contact {float: right; margin: -2.5% 15px; white-space: pre-wrap;}

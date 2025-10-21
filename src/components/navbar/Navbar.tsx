@@ -1,6 +1,6 @@
 import './Navbar.css';
 import SitesButton from './sitesButton/SitesButton';
-import { Button } from 'primereact/button';
+import { Button } from '../Button/Button';
 import { useLocation } from 'wouter';
 import { pagePaths } from '../../utils/pagePaths';
 import { useCallback, useMemo } from 'preact/compat';
@@ -38,9 +38,8 @@ const Navbar = () => {
                 tab.preloadComponent || (() => Promise.resolve()),
             );
 
-            const ButtonComponent = Button as any;
             return (
-                <ButtonComponent
+                <Button
                     key={tab.label}
                     onClick={() => handleNavigation(tab.targetPage)}
                     onMouseEnter={preload}
@@ -49,7 +48,7 @@ const Navbar = () => {
                     onBlur={cancelPreload}
                 >
                     {tab.label}
-                </ButtonComponent>
+                </Button>
             );
         });
     }, [tabs, handleNavigation]);
