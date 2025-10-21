@@ -8,7 +8,11 @@
 
 # production
 /build
+/dist
 /satwiki/output
+
+# vite
+.vite/
 
 # misc
 .DS_Store

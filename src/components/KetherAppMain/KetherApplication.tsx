@@ -1,54 +1,43 @@
-import React, { Suspense } from 'react';
+import { lazy, Suspense } from 'preact/compat';
 import { SkeletonLoading } from '../Loading/SkeletonLoading';
-import {
-    createBrowserRouter,
-    createRoutesFromElements,
-    Route,
-    RouterProvider,
-} from 'react-router-dom';
+import { Router, Route } from 'wouter';
 import { pagePaths } from '../../utils/pagePaths';
 
 // Lazy load components for code splitting
-const HomePage = React.lazy(() => import('../HomePage/HomePage'));
-const Repos = React.lazy(() => import('../Repos/Repos'));
+const HomePage = lazy(() => import('../HomePage/HomePage'));
+const Repos = lazy(() => import('../Repos/Repos'));
 
 // Smart loading fallback - shows skeleton immediately
-const PageLoader: React.FC = () => <SkeletonLoading type="page" />;
+const PageLoader = () => <SkeletonLoading type="page" />;
 
 export default function KetherApplication() {
-    const router = createBrowserRouter(
-        createRoutesFromElements(
-            <>
-                <Route 
-                    path="/" 
-                    element={
-                        <Suspense fallback={<PageLoader />}>
-                            <HomePage />
-                        </Suspense>
-                    } 
-                />
-                <Route 
-                    path={pagePaths.HOME_PAGE} 
-                    element={
-                        <Suspense fallback={<PageLoader />}>
-                            <HomePage />
-                        </Suspense>
-                    } 
-                />
-                <Route 
-                    path={pagePaths.REPOS} 
-                    element={
-                        <Suspense fallback={<PageLoader />}>
-                            <Repos />
-                        </Suspense>
-                    } 
-                />
-            </>,
-        ),
-    );
+    // @ts-ignore - wouter types don't match Preact perfectly
+    const RouteComponent = Route as any;
+    const RouterComponent = Router as any;
+    
     return (
-        <>
-            <RouterProvider router={router} />
-        </>
+        <RouterComponent>
+            <RouteComponent path="/">
+                {() => (
+                    <Suspense fallback={<PageLoader />}>
+                        <HomePage />
+                    </Suspense>
+                )}
+            </RouteComponent>
+            <RouteComponent path={pagePaths.HOME_PAGE}>
+                {() => (
+                    <Suspense fallback={<PageLoader />}>
+                        <HomePage />
+                    </Suspense>
+                )}
+            </RouteComponent>
+            <RouteComponent path={pagePaths.REPOS}>
+                {() => (
+                    <Suspense fallback={<PageLoader />}>
+                        <Repos />
+                    </Suspense>
+                )}
+            </RouteComponent>
+        </RouterComponent>
     );
 }

@@ -1,24 +1,23 @@
 module.exports = {
+	env: {
+		browser: true,
+		es2021: true,
+		node: true,
+	},
 	extends: [
-		'react-app',
-		'react-app/jest',
+		'eslint:recommended',
+		'plugin:@typescript-eslint/recommended',
 	],
+	parser: '@typescript-eslint/parser',
+	parserOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'module',
+		ecmaFeatures: {
+			jsx: true,
+		},
+	},
+	plugins: ['@typescript-eslint'],
 	rules: {
-		// React specific rules
-		'react/jsx-uses-react': 'off',
-		'react/react-in-jsx-scope': 'off',
-		'react/prop-types': 'off',
-		
-		// Accessibility rules
-		'jsx-a11y/alt-text': 'error',
-		'jsx-a11y/anchor-has-content': 'error',
-		'jsx-a11y/anchor-is-valid': 'error',
-		'jsx-a11y/aria-props': 'error',
-		'jsx-a11y/aria-proptypes': 'error',
-		'jsx-a11y/aria-unsupported-elements': 'error',
-		'jsx-a11y/role-has-required-aria-props': 'error',
-		'jsx-a11y/role-supports-aria-props': 'error',
-		
 		// General code quality rules
 		'no-console': 'warn',
 		'no-debugger': 'error',
@@ -32,10 +31,5 @@ module.exports = {
 		'comma-dangle': ['error', 'always-multiline'],
 		'semi': ['error', 'always'],
 		'quotes': ['error', 'single'],
-	},
-	settings: {
-		react: {
-			version: 'detect',
-		},
 	},
 };

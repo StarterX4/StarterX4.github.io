@@ -1,11 +1,10 @@
-import React from 'react';
 import './SkeletonLoading.css';
 
 interface SkeletonLoadingProps {
 	type?: 'page' | 'content' | 'navbar';
 }
 
-export const SkeletonLoading: React.FC<SkeletonLoadingProps> = ({ 
+export const SkeletonLoading = ({ 
 	type = 'page', 
 }) => {
 	if (type === 'navbar') {

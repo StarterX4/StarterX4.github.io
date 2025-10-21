@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'preact/compat';
 import { Loading } from './Loading';
 
 interface SmartLoadingProps {
@@ -8,7 +8,7 @@ interface SmartLoadingProps {
 	minDisplayTime?: number; // Minimum time to show spinner (ms)
 }
 
-export const SmartLoading: React.FC<SmartLoadingProps> = ({ 
+export const SmartLoading = ({ 
 	size = 'medium', 
 	text = 'Loading...', 
 	delay = 200, // Only show spinner after 200ms

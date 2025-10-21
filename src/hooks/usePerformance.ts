@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback } from 'preact/compat';
 import { performanceMonitor } from '../utils/webVitals';
 
 interface UsePerformanceOptions {

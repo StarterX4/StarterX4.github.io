@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { render } from 'preact';
 import './index.css';
 import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -8,13 +7,9 @@ import './global.css';
 import { reportWebVitals } from './utils/webVitals';
 import { preloadCriticalComponents } from './utils/preloading';
 
-const root = ReactDOM.createRoot(
+render(
+	<KetherApplication />,
 	document.getElementById('root') as HTMLElement,
-);
-root.render(
-	<React.StrictMode>
-		<KetherApplication />
-	</React.StrictMode>,
 );
 
 // Report Web Vitals for performance monitoring

@@ -1,9 +1,9 @@
 import './Navbar.css';
 import SitesButton from './sitesButton/SitesButton';
 import { Button } from 'primereact/button';
-import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'wouter';
 import { pagePaths } from '../../utils/pagePaths';
-import React, { useCallback, useMemo } from 'react';
+import { useCallback, useMemo } from 'preact/compat';
 import { preloadOnHover } from '../../utils/preloading';
 
 interface TabItem {
@@ -12,8 +12,8 @@ interface TabItem {
     preloadComponent?: () => Promise<any>;
 }
 
-const Navbar: React.FC = React.memo(() => {
-    const navigate = useNavigate();
+const Navbar = () => {
+    const [, setLocation] = useLocation();
 
     const tabs: TabItem[] = useMemo(() => [
         {
@@ -29,8 +29,8 @@ const Navbar: React.FC = React.memo(() => {
     ], []);
 
     const handleNavigation = useCallback((path: string) => {
-        navigate(`../${path}`);
-    }, [navigate]);
+        setLocation(path);
+    }, [setLocation]);
 
     const getNavigationButtons = useCallback(() => {
         return tabs.map((tab) => {
@@ -38,8 +38,9 @@ const Navbar: React.FC = React.memo(() => {
                 tab.preloadComponent || (() => Promise.resolve()),
             );
 
+            const ButtonComponent = Button as any;
             return (
-                <Button
+                <ButtonComponent
                     key={tab.label}
                     onClick={() => handleNavigation(tab.targetPage)}
                     onMouseEnter={preload}
@@ -48,7 +49,7 @@ const Navbar: React.FC = React.memo(() => {
                     onBlur={cancelPreload}
                 >
                     {tab.label}
-                </Button>
+                </ButtonComponent>
             );
         });
     }, [tabs, handleNavigation]);
@@ -61,8 +62,6 @@ const Navbar: React.FC = React.memo(() => {
             </div>
         </div>
     );
-});
-
-Navbar.displayName = 'Navbar';
+};
 
 export default Navbar;

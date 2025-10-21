@@ -1,4 +1,3 @@
-import React from 'react';
 import './Loading.css';
 
 interface LoadingProps {
@@ -6,7 +5,7 @@ interface LoadingProps {
 	text?: string;
 }
 
-export const Loading: React.FC<LoadingProps> = ({ 
+export const Loading = ({ 
 	size = 'medium', 
 	text = 'Loading...', 
 }) => {
